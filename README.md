@@ -1,5 +1,5 @@
 # Bulluck Co., Ltd.'s Website
 
 ## member
-* miyagawakazuki
-* takerusekine
+* miyagawakazuki (CEO)
+* takerusekine (CTO)
