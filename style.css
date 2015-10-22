@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Bulluck Theme
+Theme URI: http://27553661b6d3eeba.lolipop.jp/bulluck/wordpress/wp-content/themes/bulluck/
+Description: This is our model theme.
+Author: BuLuck inc.
+Author URI: http://www.oceanwave.us/bulluck/
+Version:1.0
+*/
+
+@import url(css/layout.css);
+@import url(css/common.css);
