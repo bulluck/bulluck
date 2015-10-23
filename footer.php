@@ -1,7 +1,8 @@
 <div class="footerwrap">
 	<div class="cbodynomargin">
 		<div class="formcontentsbody">
-		<p>ご訪問いただき、ありがとうございます。</p>
+		<p>ご訪問いただき、
+        <br>ありがとうございます。</p>
 		</div>
 		<div class="boxhalf aligncenter">
 			<span class="footerspan">Bulluck</span>
