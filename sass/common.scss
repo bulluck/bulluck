@@ -1,6 +1,17 @@
 @charset 'utf-8';
 @import 'compass';
 
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
 /* line 12, ../sass/common.scss */
 /* line 14, ../sass/common.scss */
 html {
@@ -536,25 +547,29 @@ a img:hover {
 .slicknav_menu {
   display: none;
 }
-
-/* line 509, ../sass/common.scss */
-/* line 516, ../sass/common.scss */
-/* line 526, ../sass/common.scss */
-/* line 529, ../sass/common.scss */
-/* line 532, ../sass/common.scss */
-/* line 535, ../sass/common.scss */
-/* line 541, ../sass/common.scss */
-/* line 544, ../sass/common.scss */
-/* line 548, ../sass/common.scss */
-/* line 4, ../sass/common.scss */
-/* line 408, ../sass/common.scss */
-/* line 418, ../sass/common.scss */
-/* line 421, ../sass/common.scss */
-/* line 424, ../sass/common.scss */
-/* line 427, ../sass/common.scss */
-/* line 433, ../sass/common.scss */
-/* line 436, ../sass/common.scss */
-/* line 440, ../sass/common.scss */
+.footer-globalNavi {
+  margin-bottom: 50px;
+  .menu {
+    width: 100%;
+    @include clearfix;
+    li {
+      float: left;
+      width: (100% / 5);
+      height: 50px;
+      list-style-type: none;
+      border-left: 1px solid #333;
+      &:first-child {
+        border-left-style: none;
+      }
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        line-height: 50px;
+        color: #fff;
+      }
+    }
+  }
+}
 @media screen and (max-width: 1024px) {
   /* line 447, ../sass/common.scss */
   /* line 575, ../sass/common.scss */
@@ -630,7 +645,8 @@ a img:hover {
       float: left;
     }
   }
-  .globalNavi {
+  .globalNavi,
+  .globalNavi2 {
     display: none;
   }
 
@@ -887,6 +903,26 @@ a img:hover {
   }
   .trouble {
     height: 210px;
+  }
+  .footer-globalNavi {
+    .menu {
+      width: 100%;
+      li {
+        float: none;
+        height: 50px;
+        width: 100%;
+        list-style-type: none;
+        border-top: 1px solid #333;
+        border-left-style: none;
+        &:first-child {
+          border-top-style: none;
+        }
+        a {
+          font-size: 1.5rem;
+          display: block;
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 414px) {
@@ -1208,6 +1244,7 @@ a img:hover {
           color: #006dc6;
         }
         p {
+
         }
       }
     }
@@ -1231,8 +1268,8 @@ a img:hover {
     width: 100%;
     height: 15px;
   }
-
   .slicknav_menu {
     top: 100%;
-}
+  }
+
 }

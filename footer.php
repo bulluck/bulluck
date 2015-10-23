@@ -1,8 +1,19 @@
 <div class="footerwrap">
 	<div class="cbodynomargin">
+		<div class="footer-globalNavi">
+			<?php wp_nav_menu(
+            array(
+            'container'  => '',
+            'container_class' => '',
+            'theme_location' => 'place_global2'
+            )
+            );?>
+		</div>
 		<div class="formcontentsbody">
 		<p>ご訪問いただき、ありがとうございます。</p>
 		</div>
+
+
 		<div class="boxhalf aligncenter">
 			<span class="footerspan">Bulluck</span>
 			<p>
@@ -49,6 +60,7 @@
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src="<?php bloginfo('template_url'); ?>/js/func.js"></script>
+
 
 </body>
 </html>
