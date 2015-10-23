@@ -109,7 +109,6 @@ a img:hover {
   color: #fefefe;
 }
 
-
 /* line 79, ../sass/common.scss */
 /* line 125, ../sass/common.scss */
 .graycolor {
@@ -526,6 +525,10 @@ a img:hover {
 }
 .card-list .top-card-element .contentsmain-card p {
   font-size: 1rem;
+}
+
+.slicknav_menu {
+  display: none;
 }
 
 /* line 509, ../sass/common.scss */
@@ -1252,5 +1255,17 @@ a img:hover {
     line-height: 15px;
     width: 100%;
     height: 15px;
+  }
+
+  #menu-globalnavi {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 50%;
   }
 }

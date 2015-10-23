@@ -23,3 +23,7 @@ $(function() {
 }), $("#close").click(function() {
   $("#slide").css("display", "block"), $("#close").css("display", "none"), $("#target").slideToggle()
 });
+
+$(function(){
+  $('#menu-globalnavi').slicknav();
+});

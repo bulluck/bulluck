@@ -602,6 +602,10 @@ a img:hover {
   }
 }
 
+.slicknav_menu {
+  display: none;
+}
+
 /* line 509, ../sass/common.scss */
 
 /* line 516, ../sass/common.scss */
@@ -1278,4 +1282,15 @@ a img:hover {
     width: 100%;
     height: 15px;
   }
+
+  #menu-globalnavi {
+   display: none;
+ }
+  .slicknav_menu {
+   display: block;
+   position: absolute;
+   left: 50%;
+   top: 20%;
+   width: 50%;
+ }
 }
