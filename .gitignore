@@ -1,0 +1,5 @@
+#file ignore
+.Ds_Store
+
+#directory ignore
+.sass-cache/

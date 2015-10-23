@@ -1,8 +1,19 @@
 <div class="footerwrap">
 	<div class="cbodynomargin">
+		<div class="footer-globalNavi">
+			<?php wp_nav_menu(
+            array(
+            'container'  => '',
+            'container_class' => '',
+            'theme_location' => 'place_global2'
+            )
+            );?>
+		</div>
 		<div class="formcontentsbody">
 		<p>ご訪問いただき、ありがとうございます。</p>
 		</div>
+
+
 		<div class="boxhalf aligncenter">
 			<span class="footerspan">Bulluck</span>
 			<p>
@@ -49,6 +60,25 @@
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script src="<?php bloginfo('template_url'); ?>/js/func.js"></script>
+<!-- リマーケティング タグの Google コード -->
+<!--------------------------------------------------
+リマーケティング タグは、個人を特定できる情報と関連付けることも、デリケートなカテゴリに属するページに設置することも許可されません。タグの設定方法については、こちらのページをご覧ください。
+http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 941213421;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/941213421/?value=0&guid=ON&script=0"/>
+</div>
+</noscript>
 
 </body>
 </html>

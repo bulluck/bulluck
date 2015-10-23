@@ -1,6 +1,17 @@
 @charset 'utf-8';
 @import 'compass';
 
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
 /* line 12, ../sass/common.scss */
 /* line 14, ../sass/common.scss */
 html {
@@ -25,7 +36,7 @@ body {
 /* line 26, ../sass/common.scss */
 /* line 35, ../sass/common.scss */
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 300;
 }
@@ -214,9 +225,9 @@ a img:hover {
 /* line 223, ../sass/common.scss */
 .menu ul li a {
   position: relative;
-  font-size: 1.5rem;
   font-weight: 300;
   line-height: 2;
+  font-size: 1.5rem;
   &:hover {
     font-weight: 500;
     text-shadow: 1px 1px 5px rgba(201, 202, 209, 0.8);
@@ -236,7 +247,6 @@ a img:hover {
 .footerlist li a {
   text-decoration: none;
   color: #706c6c;
-  font-size: 1.2rem;
 }
 
 /* line 210, ../sass/common.scss */
@@ -282,7 +292,6 @@ a img:hover {
     font-weight: 300;
   }
   p {
-    font-size: 1.2rem;
     padding: 0.5rem 0;
   }
 }
@@ -532,34 +541,35 @@ a img:hover {
         text-decoration: none;
         color: #006dc6;
       }
-      p {
-        font-size: 1rem;
-      }
     }
   }
 }
 .slicknav_menu {
   display: none;
 }
-
-/* line 509, ../sass/common.scss */
-/* line 516, ../sass/common.scss */
-/* line 526, ../sass/common.scss */
-/* line 529, ../sass/common.scss */
-/* line 532, ../sass/common.scss */
-/* line 535, ../sass/common.scss */
-/* line 541, ../sass/common.scss */
-/* line 544, ../sass/common.scss */
-/* line 548, ../sass/common.scss */
-/* line 4, ../sass/common.scss */
-/* line 408, ../sass/common.scss */
-/* line 418, ../sass/common.scss */
-/* line 421, ../sass/common.scss */
-/* line 424, ../sass/common.scss */
-/* line 427, ../sass/common.scss */
-/* line 433, ../sass/common.scss */
-/* line 436, ../sass/common.scss */
-/* line 440, ../sass/common.scss */
+.footer-globalNavi {
+  margin-bottom: 50px;
+  .menu {
+    width: 100%;
+    @include clearfix;
+    li {
+      float: left;
+      width: (100% / 5);
+      height: 50px;
+      list-style-type: none;
+      border-left: 1px solid #333;
+      &:first-child {
+        border-left-style: none;
+      }
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        line-height: 50px;
+        color: #fff;
+      }
+    }
+  }
+}
 @media screen and (max-width: 1024px) {
   /* line 447, ../sass/common.scss */
   /* line 575, ../sass/common.scss */
@@ -726,7 +736,6 @@ a img:hover {
   /* line 549, ../sass/common.scss */
   /* line 696, ../sass/common.scss */
   .plantable caption {
-    font-size: 1rem;
     height: auto !important;
     line-height: normal !important;
   }
@@ -825,7 +834,6 @@ a img:hover {
   /* line 618, ../sass/common.scss */
   /* line 778, ../sass/common.scss */
   .bulluckexp p {
-    font-size: 1.5rem;
     font-weight: normal;
     margin: 0;
     line-height: 3;
@@ -845,7 +853,6 @@ a img:hover {
   .bulluckimgsbox2 a span,
   .bulluckimgsbox3 a span,
   .bulluckimgsbox4 a span {
-    font-size: 1rem;
     line-height: 30px;
   }
   /* line 639, ../sass/common.scss */
@@ -896,6 +903,26 @@ a img:hover {
   }
   .trouble {
     height: 210px;
+  }
+  .footer-globalNavi {
+    .menu {
+      width: 100%;
+      li {
+        float: none;
+        height: 50px;
+        width: 100%;
+        list-style-type: none;
+        border-top: 1px solid #333;
+        border-left-style: none;
+        &:first-child {
+          border-top-style: none;
+        }
+        a {
+          font-size: 1.5rem;
+          display: block;
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 414px) {
@@ -1019,7 +1046,6 @@ a img:hover {
     text-align: center;
     margin: 0 auto;
     a {
-      font-size: 2rem;
       text-decoration: none;
     }
   }
@@ -1096,7 +1122,6 @@ a img:hover {
   .kvbntext_sp {
     width: 90%;
     margin: 0 auto;
-    font-size: 1rem;
     color: #1a1f63;
     h3 {
       font-size: 1.3rem;
@@ -1219,7 +1244,7 @@ a img:hover {
           color: #006dc6;
         }
         p {
-          font-size: 1rem;
+
         }
       }
     }
@@ -1239,13 +1264,12 @@ a img:hover {
   .bulluckimgsbox2 a span,
   .bulluckimgsbox3 a span,
   .bulluckimgsbox4 a span {
-    font-size: 1rem;
     line-height: 15px;
     width: 100%;
     height: 15px;
   }
-
   .slicknav_menu {
     top: 100%;
-}
+  }
+
 }
