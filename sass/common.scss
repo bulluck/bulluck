@@ -25,7 +25,7 @@ body {
 /* line 26, ../sass/common.scss */
 /* line 35, ../sass/common.scss */
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 300;
 }
@@ -214,9 +214,9 @@ a img:hover {
 /* line 223, ../sass/common.scss */
 .menu ul li a {
   position: relative;
-  font-size: 1.5rem;
   font-weight: 300;
   line-height: 2;
+  font-size: 1.5rem;
   &:hover {
     font-weight: 500;
     text-shadow: 1px 1px 5px rgba(201, 202, 209, 0.8);
@@ -236,7 +236,6 @@ a img:hover {
 .footerlist li a {
   text-decoration: none;
   color: #706c6c;
-  font-size: 1.2rem;
 }
 
 /* line 210, ../sass/common.scss */
@@ -282,7 +281,6 @@ a img:hover {
     font-weight: 300;
   }
   p {
-    font-size: 1.2rem;
     padding: 0.5rem 0;
   }
 }
@@ -532,9 +530,6 @@ a img:hover {
         text-decoration: none;
         color: #006dc6;
       }
-      p {
-        font-size: 1rem;
-      }
     }
   }
 }
@@ -725,7 +720,6 @@ a img:hover {
   /* line 549, ../sass/common.scss */
   /* line 696, ../sass/common.scss */
   .plantable caption {
-    font-size: 1rem;
     height: auto !important;
     line-height: normal !important;
   }
@@ -824,7 +818,6 @@ a img:hover {
   /* line 618, ../sass/common.scss */
   /* line 778, ../sass/common.scss */
   .bulluckexp p {
-    font-size: 1.5rem;
     font-weight: normal;
     margin: 0;
     line-height: 3;
@@ -844,7 +837,6 @@ a img:hover {
   .bulluckimgsbox2 a span,
   .bulluckimgsbox3 a span,
   .bulluckimgsbox4 a span {
-    font-size: 1rem;
     line-height: 30px;
   }
   /* line 639, ../sass/common.scss */
@@ -1018,7 +1010,6 @@ a img:hover {
     text-align: center;
     margin: 0 auto;
     a {
-      font-size: 2rem;
       text-decoration: none;
     }
   }
@@ -1095,7 +1086,6 @@ a img:hover {
   .kvbntext_sp {
     width: 90%;
     margin: 0 auto;
-    font-size: 1rem;
     color: #1a1f63;
     h3 {
       font-size: 1.3rem;
@@ -1218,7 +1208,6 @@ a img:hover {
           color: #006dc6;
         }
         p {
-          font-size: 1rem;
         }
       }
     }
@@ -1238,7 +1227,6 @@ a img:hover {
   .bulluckimgsbox2 a span,
   .bulluckimgsbox3 a span,
   .bulluckimgsbox4 a span {
-    font-size: 1rem;
     line-height: 15px;
     width: 100%;
     height: 15px;
