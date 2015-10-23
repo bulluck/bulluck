@@ -109,7 +109,6 @@ a img:hover {
   color: #fefefe;
 }
 
-
 /* line 79, ../sass/common.scss */
 /* line 125, ../sass/common.scss */
 .graycolor {
@@ -373,19 +372,22 @@ a img:hover {
 
 /* line 297, ../sass/common.scss */
 /* line 390, ../sass/common.scss */
-.question, .answer {
+.question,
+.answer {
   width: 100%;
 }
 
 /* line 301, ../sass/common.scss */
 /* line 396, ../sass/common.scss */
-.question img, .answer img {
+.question img,
+.answer img {
   width: 50%;
 }
 
 /* line 305, ../sass/common.scss */
 /* line 402, ../sass/common.scss */
-.question p, .answer p {
+.question p,
+.answer p {
   text-align: justify;
   font-weight: 400;
   vertical-align: middle;
@@ -528,6 +530,10 @@ a img:hover {
   font-size: 1rem;
 }
 
+.slicknav_menu {
+  display: none;
+}
+
 /* line 509, ../sass/common.scss */
 /* line 516, ../sass/common.scss */
 /* line 526, ../sass/common.scss */
@@ -562,13 +568,15 @@ a img:hover {
 
   /* line 454, ../sass/common.scss */
   /* line 584, ../sass/common.scss */
-  .answer .box30, .question .box30 {
+  .answer .box30,
+  .question .box30 {
     display: none;
   }
 
   /* line 458, ../sass/common.scss */
   /* line 588, ../sass/common.scss */
-  .box70, .box30 {
+  .box70,
+  .box30 {
     width: 100%;
     content: "";
     display: block;
@@ -588,7 +596,8 @@ a img:hover {
 
   /* line 474, ../sass/common.scss */
   /* line 605, ../sass/common.scss */
-  .globalNavi, .globalNavi2 {
+  .globalNavi,
+  .globalNavi2 {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -627,6 +636,11 @@ a img:hover {
     float: left;
   }
 
+  .globalNavi,
+  .globalNavi2 {
+    display: none;
+  }
+
   /* line 631, ../sass/common.scss */
   /* line 497, ../sass/common.scss */
   /* line 503, ../sass/common.scss */
@@ -638,6 +652,17 @@ a img:hover {
   }
   .globalNavi ul li:first-child {
     border-left-style: none;
+  }
+
+  #menu-globalnavi {
+    display: none;
+  }
+
+  .slicknav_menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 15%;
   }
 
   /* line 644, ../sass/common.scss */
@@ -765,7 +790,8 @@ a img:hover {
 
   /* line 590, ../sass/common.scss */
   /* line 745, ../sass/common.scss */
-  .engcontent h2, .engcontent p {
+  .engcontent h2,
+  .engcontent p {
     width: 90%;
     margin: 0 auto;
   }
@@ -796,7 +822,8 @@ a img:hover {
 
   /* line 609, ../sass/common.scss */
   /* line 768, ../sass/common.scss */
-  .titlebox_corp .lineuptbl, .titleboxlineup .lineuptbl {
+  .titlebox_corp .lineuptbl,
+  .titleboxlineup .lineuptbl {
     height: 300px;
   }
 
@@ -819,14 +846,18 @@ a img:hover {
 
   /* line 626, ../sass/common.scss */
   /* line 786, ../sass/common.scss */
-  .companykvtext h1, .companykvtext h3 {
+  .companykvtext h1,
+  .companykvtext h3 {
     width: 90%;
     margin: 0 auto;
   }
 
   /* line 632, ../sass/common.scss */
   /* line 792, ../sass/common.scss */
-  .bulluckimgsbox1 a span, .bulluckimgsbox2 a span, .bulluckimgsbox3 a span, .bulluckimgsbox4 a span {
+  .bulluckimgsbox1 a span,
+  .bulluckimgsbox2 a span,
+  .bulluckimgsbox3 a span,
+  .bulluckimgsbox4 a span {
     font-size: 1rem;
     line-height: 30px;
   }
@@ -906,7 +937,8 @@ a img:hover {
 
   /* line 682, ../sass/common.scss */
   /* line 850, ../sass/common.scss */
-  .wrapnormal, .wrapbrown {
+  .wrapnormal,
+  .wrapbrown {
     padding: 3rem 0;
   }
 
@@ -918,14 +950,16 @@ a img:hover {
 
   /* line 689, ../sass/common.scss */
   /* line 858, ../sass/common.scss */
-  .box, .boxhalf {
+  .box,
+  .boxhalf {
     width: 100%;
     margin-top: 2rem;
   }
 
   /* line 694, ../sass/common.scss */
   /* line 863, ../sass/common.scss */
-  .box p, .boxhalf p {
+  .box p,
+  .boxhalf p {
     width: 100%;
     padding: 0;
     text-align: justify;
@@ -952,7 +986,10 @@ a img:hover {
 
   /* line 706, ../sass/common.scss */
   /* line 877, ../sass/common.scss */
-  .circle, .circle-o-red, .circle-o-blue, .circle-o-green {
+  .circle,
+  .circle-o-red,
+  .circle-o-blue,
+  .circle-o-green {
     width: 7rem;
     height: 7rem;
   }
@@ -1032,7 +1069,12 @@ a img:hover {
 
   /* line 757, ../sass/common.scss */
   /* line 936, ../sass/common.scss */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin: 0;
     padding: 0;
   }
@@ -1049,7 +1091,8 @@ a img:hover {
 
   /* line 773, ../sass/common.scss */
   /* line 949, ../sass/common.scss */
-  .topbar, .topbar2 {
+  .topbar,
+  .topbar2 {
     width: 100%;
     left: 0;
     padding: 0;
@@ -1247,10 +1290,17 @@ a img:hover {
   /* line 1091, ../sass/common.scss */
   /* line 1095, ../sass/common.scss */
   /* line 1102, ../sass/common.scss */
-  .bulluckimgsbox1 a span, .bulluckimgsbox2 a span, .bulluckimgsbox3 a span, .bulluckimgsbox4 a span {
+  .bulluckimgsbox1 a span,
+  .bulluckimgsbox2 a span,
+  .bulluckimgsbox3 a span,
+  .bulluckimgsbox4 a span {
     font-size: 1rem;
     line-height: 15px;
     width: 100%;
     height: 15px;
+  }
+
+  .slicknav_menu {
+    top: 100%;
   }
 }

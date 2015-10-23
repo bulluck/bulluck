@@ -10,7 +10,7 @@
       easingClose: 'swing',
       closedSymbol: '&#9658;',
       openedSymbol: '&#9660;',
-      prependTo: '.innertopbar',
+      prependTo: '.heading',
       appendTo: '',
       parentTag: 'a',
       closeOnClick: true,
