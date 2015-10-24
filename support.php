@@ -1,4 +1,3 @@
-<?php require '../../../wp-blog-header.php';?>
 <?php get_header(); ?>
 
 
