@@ -169,17 +169,23 @@
                 </div>
             </div>
             <div class="CTO">
-                <div class = "name">Takeru SEKINE
+                <div class="name">Takeru SEKINE
                 </div>
-                <div class = "subname">関根 岳
+                <div class="subname">関根 岳
                 </div>
-                <div class = "position">- 株式会社Bulluck 取締役 CTO
+                <div class="position">- 株式会社Bulluck 取締役 CTO
                 <br> (Chief Technology Officer)
                 </div>
                 <div class ="intro">
-                    東京大学大学院医学系研究科修了。
+                  <p>
+                      東京大学大学院医学系研究科修了。
+                    <br>在学中は、神経科学の研究を行っていた。
+                    <br>そのため、デザインの心理的作用に関する興味が強い。
+                    <br>また、大学在学中は、薬学部に属していたこともあり、
+                    <br>バイオテクノロジーに造詣があり、サイエンス・テクノロジーの分野に親和性が高い。
                     <br>大手日系コンサルティングファーム、
                     <br>ITシステム開発企業を経て、現職。
+                  </p>
                 </div>
             </div>
             <div class="Internship">
