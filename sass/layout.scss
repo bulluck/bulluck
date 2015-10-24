@@ -225,8 +225,13 @@ img {
   max-width: 2560px;
   margin: 0 auto;
   height: 3rem;
-  position: relative;
+  position: fixed;
   background-color: #3d3d3d;
+  z-index: 1;
+  top: 0;
+}
+#companykv, #lineuptitle {
+  margin-top: 3rem;
 }
 
 /* line 139, ../sass/layout.scss */
@@ -2254,6 +2259,7 @@ img.ajax-loader {
 /* line 2007, ../sass/layout.scss */
 .contentswrap {
   background: #3d3d3d;
+  margin-top: 3rem;
 }
 
 /* line 1217, ../sass/layout.scss */

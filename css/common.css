@@ -662,16 +662,17 @@ a img:hover {
     display: block;
     position: absolute;
     right: 0;
-    top: 15%; }
+    top: 15%;
+    z-index: 1; }
 
   /* line 644, ../sass/common.scss */
   /* line 508, ../sass/common.scss */
   /* line 513, ../sass/common.scss */
   /* line 651, ../sass/common.scss */
-  /* line 681, ../sass/common.scss */
+  /* line 682, ../sass/common.scss */
   .contactbannars img {
     width: 90%; }
-  /* line 684, ../sass/common.scss */
+  /* line 685, ../sass/common.scss */
   .contactbannars a {
     display: inline-block;
     vertical-align: middle; }
@@ -680,31 +681,31 @@ a img:hover {
   /* line 516, ../sass/common.scss */
   /* line 522, ../sass/common.scss */
   /* line 662, ../sass/common.scss */
-  /* line 693, ../sass/common.scss */
+  /* line 694, ../sass/common.scss */
   .box30 img {
     width: 50%;
     text-align: center; }
 
   /* line 526, ../sass/common.scss */
   /* line 667, ../sass/common.scss */
-  /* line 699, ../sass/common.scss */
+  /* line 700, ../sass/common.scss */
   #voices .box30 img {
     width: 20%; }
 
   /* line 529, ../sass/common.scss */
   /* line 671, ../sass/common.scss */
-  /* line 704, ../sass/common.scss */
+  /* line 705, ../sass/common.scss */
   #reason .box30 {
     margin-top: 2rem; }
 
   /* line 533, ../sass/common.scss */
   /* line 676, ../sass/common.scss */
-  /* line 710, ../sass/common.scss */
+  /* line 711, ../sass/common.scss */
   .trouble img {
     width: 100%;
     height: auto;
     margin: 0; }
-  /* line 715, ../sass/common.scss */
+  /* line 716, ../sass/common.scss */
   .trouble p {
     text-align: center; }
 
@@ -712,53 +713,53 @@ a img:hover {
   /* line 538, ../sass/common.scss */
   /* line 542, ../sass/common.scss */
   /* line 687, ../sass/common.scss */
-  /* line 723, ../sass/common.scss */
+  /* line 724, ../sass/common.scss */
   .headtitle {
     width: 50%;
     text-align: center;
     margin-left: 35px; }
-    /* line 727, ../sass/common.scss */
+    /* line 728, ../sass/common.scss */
     .headtitle span {
       display: none; }
 
   /* line 546, ../sass/common.scss */
   /* line 692, ../sass/common.scss */
-  /* line 733, ../sass/common.scss */
+  /* line 734, ../sass/common.scss */
   .description {
     display: none; }
 
   /* line 549, ../sass/common.scss */
   /* line 696, ../sass/common.scss */
-  /* line 738, ../sass/common.scss */
+  /* line 739, ../sass/common.scss */
   .plantable caption {
     height: auto !important;
     line-height: normal !important; }
 
   /* line 554, ../sass/common.scss */
   /* line 702, ../sass/common.scss */
-  /* line 744, ../sass/common.scss */
+  /* line 745, ../sass/common.scss */
   caption span {
     font-size: 1rem !important; }
 
   /* line 557, ../sass/common.scss */
   /* line 706, ../sass/common.scss */
-  /* line 749, ../sass/common.scss */
+  /* line 750, ../sass/common.scss */
   .kvbntext_sp {
     width: 90%;
     margin: 0 auto;
     color: #1a1f63; }
-    /* line 753, ../sass/common.scss */
+    /* line 754, ../sass/common.scss */
     .kvbntext_sp h3 {
       font-size: 2rem; }
-    /* line 756, ../sass/common.scss */
+    /* line 757, ../sass/common.scss */
     .kvbntext_sp .kvspanstrong {
       font-size: 2.5rem;
       font-weight: bold;
       color: red; }
-    /* line 761, ../sass/common.scss */
+    /* line 762, ../sass/common.scss */
     .kvbntext_sp .kvtexth3 {
       font-size: 2rem; }
-    /* line 764, ../sass/common.scss */
+    /* line 765, ../sass/common.scss */
     .kvbntext_sp .kvstrong {
       color: red;
       font-weight: bold;
@@ -774,7 +775,7 @@ a img:hover {
   /* line 572, ../sass/common.scss */
   /* line 578, ../sass/common.scss */
   /* line 732, ../sass/common.scss */
-  /* line 780, ../sass/common.scss */
+  /* line 781, ../sass/common.scss */
   .companykv {
     position: relative;
     width: 100%;
@@ -788,7 +789,7 @@ a img:hover {
 
   /* line 590, ../sass/common.scss */
   /* line 745, ../sass/common.scss */
-  /* line 794, ../sass/common.scss */
+  /* line 795, ../sass/common.scss */
   .engcontent h2,
   .engcontent p {
     width: 90%;
@@ -796,16 +797,16 @@ a img:hover {
 
   /* line 596, ../sass/common.scss */
   /* line 751, ../sass/common.scss */
-  /* line 802, ../sass/common.scss */
+  /* line 803, ../sass/common.scss */
   .wrapblack {
     padding: 3rem 0; }
 
   /* line 599, ../sass/common.scss */
   /* line 755, ../sass/common.scss */
-  /* line 807, ../sass/common.scss */
+  /* line 808, ../sass/common.scss */
   .wrapmidnight {
     padding: 3rem 0; }
-    /* line 809, ../sass/common.scss */
+    /* line 810, ../sass/common.scss */
     .wrapmidnight .contentsbody .boxhalf {
       margin-top: 10px !important; }
 
@@ -813,21 +814,21 @@ a img:hover {
   /* line 601, ../sass/common.scss */
   /* line 605, ../sass/common.scss */
   /* line 763, ../sass/common.scss */
-  /* line 817, ../sass/common.scss */
+  /* line 818, ../sass/common.scss */
   .titleboxlineup {
     height: 300px;
     background-size: 200% 100%, 100% auto; }
 
   /* line 609, ../sass/common.scss */
   /* line 768, ../sass/common.scss */
-  /* line 823, ../sass/common.scss */
+  /* line 824, ../sass/common.scss */
   .titlebox_corp .lineuptbl,
   .titleboxlineup .lineuptbl {
     height: 300px; }
 
   /* line 613, ../sass/common.scss */
   /* line 772, ../sass/common.scss */
-  /* line 829, ../sass/common.scss */
+  /* line 830, ../sass/common.scss */
   .posts {
     width: 100%;
     background: #fff;
@@ -835,7 +836,7 @@ a img:hover {
 
   /* line 618, ../sass/common.scss */
   /* line 778, ../sass/common.scss */
-  /* line 836, ../sass/common.scss */
+  /* line 837, ../sass/common.scss */
   .bulluckexp p {
     font-weight: normal;
     margin: 0;
@@ -843,7 +844,7 @@ a img:hover {
 
   /* line 626, ../sass/common.scss */
   /* line 786, ../sass/common.scss */
-  /* line 844, ../sass/common.scss */
+  /* line 845, ../sass/common.scss */
   .companykvtext h1,
   .companykvtext h3 {
     width: 90%;
@@ -851,7 +852,7 @@ a img:hover {
 
   /* line 632, ../sass/common.scss */
   /* line 792, ../sass/common.scss */
-  /* line 852, ../sass/common.scss */
+  /* line 853, ../sass/common.scss */
   .bulluckimgsbox1 a span,
   .bulluckimgsbox2 a span,
   .bulluckimgsbox3 a span,
@@ -860,7 +861,7 @@ a img:hover {
 
   /* line 639, ../sass/common.scss */
   /* line 797, ../sass/common.scss */
-  /* line 860, ../sass/common.scss */
+  /* line 861, ../sass/common.scss */
   .titlebox_corp {
     background-size: 100% auto;
     background-position: 65%;
@@ -868,30 +869,30 @@ a img:hover {
 
   /* line 644, ../sass/common.scss */
   /* line 803, ../sass/common.scss */
-  /* line 867, ../sass/common.scss */
+  /* line 868, ../sass/common.scss */
   .engcontent-title {
     width: 90%;
     margin: auto; }
 
   /* line 648, ../sass/common.scss */
   /* line 808, ../sass/common.scss */
-  /* line 873, ../sass/common.scss */
+  /* line 874, ../sass/common.scss */
   .svgbox {
     display: none; }
 
-  /* line 876, ../sass/common.scss */
+  /* line 877, ../sass/common.scss */
   .trouble {
     height: 240px; } }
 @media screen and (max-width: 768px) {
   /* line 655, ../sass/common.scss */
   /* line 816, ../sass/common.scss */
-  /* line 884, ../sass/common.scss */
+  /* line 885, ../sass/common.scss */
   .card-list .top-card-element:nth-child(4n) {
     margin-right: 20px; }
-  /* line 887, ../sass/common.scss */
+  /* line 888, ../sass/common.scss */
   .card-list .top-card-element:nth-child(3n) {
     margin-right: 0; }
-  /* line 890, ../sass/common.scss */
+  /* line 891, ../sass/common.scss */
   .card-list .top-card-element .card-thumbnail {
     width: 100%;
     position: relative; }
@@ -902,18 +903,18 @@ a img:hover {
   /* line 661, ../sass/common.scss */
   /* line 667, ../sass/common.scss */
   /* line 830, ../sass/common.scss */
-  /* line 901, ../sass/common.scss */
+  /* line 902, ../sass/common.scss */
   .bulluckimgsbox {
     border-style: none; }
 
-  /* line 904, ../sass/common.scss */
+  /* line 905, ../sass/common.scss */
   .trouble {
     height: 210px; }
 
-  /* line 908, ../sass/common.scss */
+  /* line 909, ../sass/common.scss */
   .footer-globalNavi .menu {
     width: 100%; }
-    /* line 910, ../sass/common.scss */
+    /* line 911, ../sass/common.scss */
     .footer-globalNavi .menu li {
       float: none;
       height: 50px;
@@ -921,49 +922,49 @@ a img:hover {
       list-style-type: none;
       border-top: 1px solid #333;
       border-left-style: none; }
-      /* line 917, ../sass/common.scss */
+      /* line 918, ../sass/common.scss */
       .footer-globalNavi .menu li:first-child {
         border-top-style: none; }
-      /* line 920, ../sass/common.scss */
+      /* line 921, ../sass/common.scss */
       .footer-globalNavi .menu li a {
         font-size: 1.5rem;
         display: block; } }
 @media screen and (max-width: 414px) {
   /* line 672, ../sass/common.scss */
   /* line 837, ../sass/common.scss */
-  /* line 931, ../sass/common.scss */
+  /* line 932, ../sass/common.scss */
   html {
     font-size: 10px; }
 
   /* line 675, ../sass/common.scss */
   /* line 841, ../sass/common.scss */
-  /* line 936, ../sass/common.scss */
+  /* line 937, ../sass/common.scss */
   body {
     width: 100%;
     text-align: center; }
 
   /* line 679, ../sass/common.scss */
   /* line 846, ../sass/common.scss */
-  /* line 942, ../sass/common.scss */
+  /* line 943, ../sass/common.scss */
   .mailform form {
     display: none; }
 
   /* line 682, ../sass/common.scss */
   /* line 850, ../sass/common.scss */
-  /* line 947, ../sass/common.scss */
+  /* line 948, ../sass/common.scss */
   .wrapnormal,
   .wrapbrown {
     padding: 3rem 0; }
 
   /* line 686, ../sass/common.scss */
   /* line 854, ../sass/common.scss */
-  /* line 953, ../sass/common.scss */
+  /* line 954, ../sass/common.scss */
   .footerwrap {
     padding-top: 3rem; }
 
   /* line 689, ../sass/common.scss */
   /* line 858, ../sass/common.scss */
-  /* line 958, ../sass/common.scss */
+  /* line 959, ../sass/common.scss */
   .box,
   .boxhalf {
     width: 100%;
@@ -971,7 +972,7 @@ a img:hover {
 
   /* line 694, ../sass/common.scss */
   /* line 863, ../sass/common.scss */
-  /* line 965, ../sass/common.scss */
+  /* line 966, ../sass/common.scss */
   .box p,
   .boxhalf p {
     width: 100%;
@@ -980,26 +981,26 @@ a img:hover {
 
   /* line 700, ../sass/common.scss */
   /* line 869, ../sass/common.scss */
-  /* line 973, ../sass/common.scss */
+  /* line 974, ../sass/common.scss */
   .trouble {
     height: auto; }
-    /* line 975, ../sass/common.scss */
+    /* line 976, ../sass/common.scss */
     .trouble p {
       text-align: center; }
 
-  /* line 979, ../sass/common.scss */
+  /* line 980, ../sass/common.scss */
   .headtitle {
     margin-left: 25px; }
 
   /* line 703, ../sass/common.scss */
   /* line 873, ../sass/common.scss */
-  /* line 984, ../sass/common.scss */
+  /* line 985, ../sass/common.scss */
   .contentsbody {
     margin: 0 auto; }
 
   /* line 706, ../sass/common.scss */
   /* line 877, ../sass/common.scss */
-  /* line 989, ../sass/common.scss */
+  /* line 990, ../sass/common.scss */
   .circle,
   .circle-o-red,
   .circle-o-blue,
@@ -1009,7 +1010,7 @@ a img:hover {
 
   /* line 713, ../sass/common.scss */
   /* line 882, ../sass/common.scss */
-  /* line 998, ../sass/common.scss */
+  /* line 999, ../sass/common.scss */
   .fa::before {
     margin: 0 auto;
     width: 7rem;
@@ -1019,19 +1020,19 @@ a img:hover {
 
   /* line 720, ../sass/common.scss */
   /* line 890, ../sass/common.scss */
-  /* line 1007, ../sass/common.scss */
+  /* line 1008, ../sass/common.scss */
   .slide_show img {
     height: 200px !important; }
 
   /* line 723, ../sass/common.scss */
   /* line 894, ../sass/common.scss */
-  /* line 1012, ../sass/common.scss */
+  /* line 1013, ../sass/common.scss */
   .formcontentsbody {
     margin: 0 auto; }
 
   /* line 726, ../sass/common.scss */
   /* line 898, ../sass/common.scss */
-  /* line 1017, ../sass/common.scss */
+  /* line 1018, ../sass/common.scss */
   .footerwrap .cbodynomargin .aligncenter p {
     width: 100%;
     padding: 0;
@@ -1039,13 +1040,13 @@ a img:hover {
 
   /* line 731, ../sass/common.scss */
   /* line 904, ../sass/common.scss */
-  /* line 1024, ../sass/common.scss */
+  /* line 1025, ../sass/common.scss */
   .worksslidebox {
     display: none; }
 
   /* line 734, ../sass/common.scss */
   /* line 908, ../sass/common.scss */
-  /* line 1029, ../sass/common.scss */
+  /* line 1030, ../sass/common.scss */
   .responsiveSlide {
     display: inline-block;
     width: 90%;
@@ -1054,20 +1055,20 @@ a img:hover {
 
   /* line 740, ../sass/common.scss */
   /* line 915, ../sass/common.scss */
-  /* line 1037, ../sass/common.scss */
+  /* line 1038, ../sass/common.scss */
   .careermessage {
     width: 90%;
     margin: 0 auto; }
 
   /* line 744, ../sass/common.scss */
   /* line 920, ../sass/common.scss */
-  /* line 1043, ../sass/common.scss */
+  /* line 1044, ../sass/common.scss */
   .mail {
     display: block;
     width: 100%;
     text-align: center;
     margin: 0 auto; }
-    /* line 1048, ../sass/common.scss */
+    /* line 1049, ../sass/common.scss */
     .mail a {
       text-decoration: none; }
 
@@ -1075,13 +1076,13 @@ a img:hover {
   /* line 749, ../sass/common.scss */
   /* line 754, ../sass/common.scss */
   /* line 932, ../sass/common.scss */
-  /* line 1056, ../sass/common.scss */
+  /* line 1057, ../sass/common.scss */
   #page-top {
     visibility: hidden; }
 
   /* line 757, ../sass/common.scss */
   /* line 936, ../sass/common.scss */
-  /* line 1061, ../sass/common.scss */
+  /* line 1062, ../sass/common.scss */
   h1,
   h2,
   h3,
@@ -1093,7 +1094,7 @@ a img:hover {
 
   /* line 766, ../sass/common.scss */
   /* line 941, ../sass/common.scss */
-  /* line 1072, ../sass/common.scss */
+  /* line 1073, ../sass/common.scss */
   .menu ul li {
     float: left;
     width: 25%;
@@ -1103,7 +1104,7 @@ a img:hover {
 
   /* line 773, ../sass/common.scss */
   /* line 949, ../sass/common.scss */
-  /* line 1081, ../sass/common.scss */
+  /* line 1082, ../sass/common.scss */
   .topbar,
   .topbar2 {
     width: 100%;
@@ -1112,23 +1113,23 @@ a img:hover {
 
   /* line 779, ../sass/common.scss */
   /* line 955, ../sass/common.scss */
-  /* line 1089, ../sass/common.scss */
+  /* line 1090, ../sass/common.scss */
   .menu ul li a {
     padding: 0;
     width: 100%; }
 
   /* line 783, ../sass/common.scss */
   /* line 960, ../sass/common.scss */
-  /* line 1095, ../sass/common.scss */
+  /* line 1096, ../sass/common.scss */
   .topbar2 .menu ul li {
     width: 33%; }
 
   /* line 786, ../sass/common.scss */
   /* line 964, ../sass/common.scss */
-  /* line 1100, ../sass/common.scss */
+  /* line 1101, ../sass/common.scss */
   .contactbannars {
     height: auto; }
-    /* line 1102, ../sass/common.scss */
+    /* line 1103, ../sass/common.scss */
     .contactbannars a {
       display: block;
       margin: 1rem auto; }
@@ -1137,36 +1138,36 @@ a img:hover {
   /* line 788, ../sass/common.scss */
   /* line 793, ../sass/common.scss */
   /* line 973, ../sass/common.scss */
-  /* line 1111, ../sass/common.scss */
+  /* line 1112, ../sass/common.scss */
   .linetblcell {
     width: 100%;
     display: inline-block; }
 
   /* line 797, ../sass/common.scss */
   /* line 978, ../sass/common.scss */
-  /* line 1117, ../sass/common.scss */
+  /* line 1118, ../sass/common.scss */
   .linetable p {
     margin: 2rem auto !important; }
 
   /* line 800, ../sass/common.scss */
   /* line 982, ../sass/common.scss */
-  /* line 1122, ../sass/common.scss */
+  /* line 1123, ../sass/common.scss */
   .kvbntext_sp {
     width: 90%;
     margin: 0 auto;
     color: #1a1f63; }
-    /* line 1126, ../sass/common.scss */
+    /* line 1127, ../sass/common.scss */
     .kvbntext_sp h3 {
       font-size: 1.3rem; }
-    /* line 1129, ../sass/common.scss */
+    /* line 1130, ../sass/common.scss */
     .kvbntext_sp .kvspanstrong {
       font-size: 1.5rem;
       font-weight: bold;
       color: red; }
-    /* line 1134, ../sass/common.scss */
+    /* line 1135, ../sass/common.scss */
     .kvbntext_sp .kvtexth3 {
       font-size: 2.4rem; }
-    /* line 1137, ../sass/common.scss */
+    /* line 1138, ../sass/common.scss */
     .kvbntext_sp .kvstrong {
       color: red;
       font-weight: bold;
@@ -1177,12 +1178,12 @@ a img:hover {
   /* line 995, ../sass/common.scss */
   /* line 998, ../sass/common.scss */
   /* line 1005, ../sass/common.scss */
-  /* line 1148, ../sass/common.scss */
+  /* line 1149, ../sass/common.scss */
   .bulluckleft {
     height: 100px; }
 
   /* line 1008, ../sass/common.scss */
-  /* line 1152, ../sass/common.scss */
+  /* line 1153, ../sass/common.scss */
   .titleboxlineup {
     height: 300px;
     background-size: auto 100%;
@@ -1190,7 +1191,7 @@ a img:hover {
 
   /* line 830, ../sass/common.scss */
   /* line 1014, ../sass/common.scss */
-  /* line 1159, ../sass/common.scss */
+  /* line 1160, ../sass/common.scss */
   .titlebox_corp {
     background-size: auto 100%;
     background-position: 65%;
@@ -1198,23 +1199,23 @@ a img:hover {
 
   /* line 835, ../sass/common.scss */
   /* line 1020, ../sass/common.scss */
-  /* line 1166, ../sass/common.scss */
+  /* line 1167, ../sass/common.scss */
   .question {
     margin-bottom: 5px; }
-    /* line 1168, ../sass/common.scss */
+    /* line 1169, ../sass/common.scss */
     .question p {
       background-size: 25px; }
 
   /* line 1022, ../sass/common.scss */
   /* line 838, ../sass/common.scss */
   /* line 1029, ../sass/common.scss */
-  /* line 1175, ../sass/common.scss */
+  /* line 1176, ../sass/common.scss */
   .answer p {
     background-size: 25px; }
 
   /* line 842, ../sass/common.scss */
   /* line 1033, ../sass/common.scss */
-  /* line 1180, ../sass/common.scss */
+  /* line 1181, ../sass/common.scss */
   .kvbox .innerbox {
     height: 300px;
     width: 100%;
@@ -1222,7 +1223,7 @@ a img:hover {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: auto 100%; }
-    /* line 1187, ../sass/common.scss */
+    /* line 1188, ../sass/common.scss */
     .kvbox .innerbox img {
       display: none; }
 
@@ -1230,59 +1231,59 @@ a img:hover {
   /* line 849, ../sass/common.scss */
   /* line 853, ../sass/common.scss */
   /* line 1046, ../sass/common.scss */
-  /* line 1195, ../sass/common.scss */
+  /* line 1196, ../sass/common.scss */
   .companykv {
     height: 200px; }
 
   /* line 856, ../sass/common.scss */
   /* line 1050, ../sass/common.scss */
-  /* line 1200, ../sass/common.scss */
+  /* line 1201, ../sass/common.scss */
   .kvbn {
     padding-top: 80px; }
 
   /* line 859, ../sass/common.scss */
   /* line 1054, ../sass/common.scss */
-  /* line 1205, ../sass/common.scss */
+  /* line 1206, ../sass/common.scss */
   .card-list {
     width: 100%;
     max-width: 980px;
     margin: 0 auto; }
-    /* line 1209, ../sass/common.scss */
+    /* line 1210, ../sass/common.scss */
     .card-list:after {
       content: "";
       display: block;
       clear: both;
       height: 0;
       visibility: hidden; }
-    /* line 1216, ../sass/common.scss */
+    /* line 1217, ../sass/common.scss */
     .card-list .top-card-element {
       width: 45%;
       list-style-type: none;
       margin-right: 10px;
       margin-bottom: 10px; }
-      /* line 1221, ../sass/common.scss */
+      /* line 1222, ../sass/common.scss */
       .card-list .top-card-element:nth-child(3n) {
         margin-right: 10px; }
-      /* line 1224, ../sass/common.scss */
+      /* line 1225, ../sass/common.scss */
       .card-list .top-card-element:nth-child(2n) {
         margin-right: 0; }
-      /* line 1227, ../sass/common.scss */
+      /* line 1228, ../sass/common.scss */
       .card-list .top-card-element .card-thumbnail {
         width: 100%;
         position: relative; }
-        /* line 1230, ../sass/common.scss */
+        /* line 1231, ../sass/common.scss */
         .card-list .top-card-element .card-thumbnail img {
           width: 50%; }
-        /* line 1233, ../sass/common.scss */
+        /* line 1234, ../sass/common.scss */
         .card-list .top-card-element .card-thumbnail .card-tag {
           position: absolute;
           top: 0;
           left: 0; }
-      /* line 1239, ../sass/common.scss */
+      /* line 1240, ../sass/common.scss */
       .card-list .top-card-element .contentsmain-card {
         width: 100%;
         text-align: left; }
-        /* line 1242, ../sass/common.scss */
+        /* line 1243, ../sass/common.scss */
         .card-list .top-card-element .contentsmain-card a {
           text-decoration: none;
           color: #006dc6; }
@@ -1298,7 +1299,7 @@ a img:hover {
   /* line 1091, ../sass/common.scss */
   /* line 1095, ../sass/common.scss */
   /* line 1102, ../sass/common.scss */
-  /* line 1263, ../sass/common.scss */
+  /* line 1264, ../sass/common.scss */
   .bulluckimgsbox1 a span,
   .bulluckimgsbox2 a span,
   .bulluckimgsbox3 a span,
@@ -1307,6 +1308,6 @@ a img:hover {
     width: 100%;
     height: 15px; }
 
-  /* line 1271, ../sass/common.scss */
+  /* line 1272, ../sass/common.scss */
   .slicknav_menu {
     top: 100%; } }

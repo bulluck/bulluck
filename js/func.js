@@ -25,5 +25,5 @@ $(function() {
 });
 
 $(function(){
-  $('#menu-globalnavi').slicknav();
+  $('#menu-globalnavi2').slicknav();
 });
