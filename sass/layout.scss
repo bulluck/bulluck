@@ -2330,63 +2330,47 @@ img.ajax-loader {
   }
 }
 
-/* line 2054, ../sass/layout.scss */
-/* line 2061, ../sass/layout.scss */
-/* line 2066, ../sass/layout.scss */
-/* line 1762, ../sass/layout.scss */
-/* line 1769, ../sass/layout.scss */
-/* line 1774, ../sass/layout.scss */
-/* line 1246, ../sass/layout.scss */
-/* line 1253, ../sass/layout.scss */
-/* line 1258, ../sass/layout.scss */
-/* line 1266, ../sass/layout.scss */
-/* line 1787, ../sass/layout.scss */
-/* line 2083, ../sass/layout.scss */
-.mediakv {
+.posts-table {
   width: 100%;
-  max-width: 2560px;
-  margin: 0 auto;
-  height: auto;
-  overflow: hidden;
-  background-image: url("../images/mediakv.png");
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  .mediatable {
-    display: table;
-    width: 100%;
-    height: 470px;
-    .mediacell {
-      width: 100%;
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-      .mediakvh1 {
-        font-size: 4rem;
-        color: #fff;
-      }
-      .mediakvspan {
-        color: #fff;
-      }
-    }
+  border-collapse: separate;
+  border-spacing: 30px;
+  tr td {
+    width: 30%;
   }
 }
 
-/* line 2093, ../sass/layout.scss */
-/* line 2097, ../sass/layout.scss */
-/* line 2102, ../sass/layout.scss */
-/* line 2106, ../sass/layout.scss */
-/* line 1797, ../sass/layout.scss */
-/* line 1801, ../sass/layout.scss */
-/* line 1806, ../sass/layout.scss */
-/* line 1810, ../sass/layout.scss */
-/* line 1276, ../sass/layout.scss */
-/* line 1280, ../sass/layout.scss */
-/* line 1285, ../sass/layout.scss */
-/* line 1289, ../sass/layout.scss */
-/* line 1296, ../sass/layout.scss */
-/* line 1823, ../sass/layout.scss */
-/* line 2124, ../sass/layout.scss */
+.posts-table-cell {
+  position: relative;
+  img {
+    text-align: center;
+  }
+  .tags {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .posts-table-text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255,255,255,.8);
+    color: #111;
+    .pub-day {
+      font-size: .8rem;
+    }
+    p {
+      margin: 0;
+    a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+    }
+    }
+  }
+
+  }
+
 .entry-header {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -2730,17 +2714,7 @@ img.ajax-loader {
   /* line 1435, ../sass/layout.scss */
   /* line 2055, ../sass/layout.scss */
   /* line 2420, ../sass/layout.scss */
-  .mediakv .mediatable {
-    height: 200px;
-    .mediacell {
-      .mediakvh1 {
-        font-size: 3rem;
-      }
-      .mediakvspan {
-        font-size: 2rem;
-      }
-    }
-  }
+
   .trouble-alt {
     background-image: url("../images/trouble-mobile.jpg");
     height: 464px;

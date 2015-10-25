@@ -111,7 +111,7 @@ add_filter('excerpt_more', 'cms_excerpt_more');
 // 抜粋文が自動的に生成される場合にデフォルトの文字数を変更します。
 function cms_excerpt_length()
 {
-    return 80;
+    return 50;
 }
 add_filter('excerpt_mblength', 'cms_excerpt_length');
 
@@ -280,3 +280,20 @@ function add_lity_property($content)
   return $content;
 }
 add_filter('the_content', 'add_lity_property', 10);
+
+
+//記事内の初めの画像をサムネイルとして使用する。
+function catch_that_image()
+{
+    global $post, $posts;
+    $first_img = '';
+    ob_start();
+    ob_end_clean();
+    $output = preg_match_all('//i', $post->post_content, $matches);
+    $first_img = $matches [1] [0];
+
+    if (empty($first_img)) { //Defines a default image
+        $first_img = "piyopiyo.jpg";
+    }
+    return $first_img;
+}
