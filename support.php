@@ -6,7 +6,7 @@
 
 <div class="contentsbody">
 <h1 class="toi">
-  お問い合わせ
+  <?php the_title(); ?>
 </h1>
 
 
