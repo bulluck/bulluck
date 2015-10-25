@@ -38,36 +38,36 @@
   </h2>
 
   <ul class="card-list">
-  <?php
-  $cardlist = get_posts(array(
-    'category_name' => 'media',
-    'posts_per_page' => 8,
-    'orderby' => date,
-  ));
-  foreach ($cardlist as $post):
-    setup_postdata($post);?>
+      <?php
+      $cardlist = get_posts(array(
+        'category_name' => 'media',
+        'posts_per_page' => 8,
+        'orderby' => date,
+      ));
+      foreach ($cardlist as $post):
+        setup_postdata($post);?>
 
-    <li class="top-card-element">
-      <div class="card-thumbnail">
+      <li class="top-card-element">
+        <div class="card-thumbnail">
 
-      <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail(); ?></a>
-      <div class="card-tag">
+        <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail(); ?></a>
+        <div class="card-tag">
 
-        <?php if (has_tag()) :
-                the_tags('<div class="tags">', '</div><div class="tags">', '</div>');
-              endif;  ?>
-      </div>
-      </div>
-      <div class="contentsmain-card">
-      <span>
-        <?php the_time('Y年n月j日') ?>
-      </span>
-      <a href="<?php the_permalink(); ?>"><?php the_title();?></a>
-      </div>
+          <?php if (has_tag()) :
+                  the_tags('<div class="tags">', '</div><div class="tags">', '</div>');
+                endif;  ?>
+        </div>
+        </div>
+        <div class="contentsmain-card">
+        <span>
+          <?php the_time('Y年n月j日') ?>
+        </span>
+        <a href="<?php the_permalink(); ?>"><?php the_title();?></a>
+        </div>
 
-    </li>
-    <?php endforeach;
-    wp_reset_postdata(); ?>
+      </li>
+      <?php endforeach;
+      wp_reset_postdata(); ?>
   </ul>
   </div>
 </section>
