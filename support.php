@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-
-
+<div class="icon">
+                <img alt="メールアイコン" src="<?php bloginfo('template_url');?>/images/mail.png">
+            </div>
 <section id="contact">
     <div class="wrapnormal" style="padding-bottom:0;">
         <div class="formcontentsbody">
@@ -58,7 +59,6 @@
                     <a style="font-size:2rem;text-decoration:none;" href="mailto:info@bulluck.co.jp">
                             info@bulluck.co.jp
                     </a>
-
         </div>
         </div>
     </div>
