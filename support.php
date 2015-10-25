@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <section id="otoiawase">
+あ
 
 <div class="contentsbody">
 <span style="font-size:2rem;text-align:center;"><?php the_title(); ?></span>
