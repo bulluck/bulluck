@@ -1,9 +1,8 @@
 <?php get_header(); ?>
 <section id="otoiawase">
 
-<p>
-無料相談・無料見積もり・その他のお問い合わせ
-</p>
+
+
 
 <div class="contentsbody">
 <span style="font-size:2rem;text-align:center;"><?php the_title(); ?></span>
