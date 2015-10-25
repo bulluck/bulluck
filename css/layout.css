@@ -112,7 +112,9 @@ img {
 .heading {
   width: 100%;
   max-width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  padding: 7 0%;
+  }
 
 /* line 78, ../sass/layout.scss */
 /* line 97, ../sass/layout.scss */
