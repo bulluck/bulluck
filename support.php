@@ -2,11 +2,6 @@
 <section id="otoiawase">
 
 
-<div class="icon">
-                <img alt="メールアイコン" src="<?php bloginfo('template_url');?>/images/mail.png">
-            </div>
-            
-            
 
 <div class="contentsbody">
 <span style="font-size:2rem;text-align:center;"><?php the_title(); ?></span>
