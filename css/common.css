@@ -1314,17 +1314,27 @@ a img:hover {
 
 .toi {
     margin-top: 6rem;
+	border-color: #3D3D3D;
+    border-style: solid;
+	color: #ffffff;
+    background: #3d3d3d;
 	}
 
 .toitop {
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 
 h2.toi2 {
     margin-top: 2.5rem;
+	border-color: #3D3D3D;
+    border-style: solid;
 }
 
+.osiuri {
+    border-color: #3D3D3D;
+    border-style: dotted;
+}
 
 
 

@@ -5,11 +5,12 @@
 
 
 <div class="contentsbody">
+<div class = "toitop">
 <h1 class="toi">
   <?php the_title(); ?>
 </h1>
 
-<div class = "toitop">
+
 
 <p>お問い合わせ・ご質問・無料相談のお申し込みは下記のフォームまたはラインにてご連絡ください。24時間以内にご返信いたします。
 </p>
