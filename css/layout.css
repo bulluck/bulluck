@@ -919,7 +919,8 @@ img {
 .box70 .voiceheading {
   font-weight: bold;
   border-left: 5px solid royalblue;
-  padding-bottom: 0; }
+  padding-bottom: 0; 
+  font-size: 1.7rem;}
 /* line 938, ../sass/layout.scss */
 .box70 th,
 .box70 td {
