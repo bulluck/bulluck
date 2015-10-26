@@ -1313,15 +1313,16 @@ a img:hover {
 
 
 .toi {
-    margin-top: 6rem;
+    margin-top: 5rem;
 	border-color: #3D3D3D;
     border-style: solid;
 	color: #ffffff;
     background: #3d3d3d;
+	padding: 0.5rem
 	}
 
 .toitop {
-    width: 85%;
+    width: 90%;
     margin: auto;
 }
 
@@ -1333,10 +1334,13 @@ h2.toi2 {
 }
 
 .osiuri {
-    border-color: #3D3D3D;
-    border-style: dotted;
 	margin-bottom: 5rem;
-	margin-top: 2rem;
+	margin-top: 3rem;
+	color: red;
+	padding: 1rem;
+	color: rgb(231, 60, 60);
+    font-weight: 600;
+	
 }
 
 
