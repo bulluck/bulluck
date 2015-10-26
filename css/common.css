@@ -1341,3 +1341,25 @@ h2.toi2 {
 
 
 
+.kozin1, .kozin2, .kozin3 {
+    text-align: left;
+}
+
+.toitop2 {
+    width: 70%;
+    margin:3rem auto;
+	}
+	
+	
+.kozin1 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+	
+.kozin2 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+
+
