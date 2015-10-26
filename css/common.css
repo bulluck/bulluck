@@ -356,7 +356,7 @@ a img:hover {
 /* line 374, ../sass/common.scss */
 .wpcf7-form {
   max-width: 980px;
-  margin: 0 auto; }
+  margin: 4rem auto; }
 
 /* line 293, ../sass/common.scss */
 /* line 380, ../sass/common.scss */
@@ -1303,3 +1303,67 @@ a img:hover {
   /* line 1265, ../sass/common.scss */
   .slicknav_menu {
     top: 100%; } }
+
+
+.toi {
+    margin-top: 5rem;
+	border-color: #3D3D3D;
+    border-style: solid;
+	color: #ffffff;
+    background: #3d3d3d;
+	padding: 0.5rem
+	}
+
+.toitop {
+    width: 90%;
+    margin: auto;
+	text-align: left;
+}
+
+h2.toi2 {
+    margin-top: 3rem;
+	border-color: #3D3D3D;
+	border-style: none none solid;
+    border-width: 2px;
+	padding: 0.5rem;
+}
+
+.osiuri {
+	margin-bottom: 5rem;
+	margin-top: 3rem;
+	color: red;
+	padding: 1rem;
+	color: rgb(231, 60, 60);
+    font-weight: 600;
+	background: rgba(241, 214, 59, 0.17);
+	
+}
+
+
+
+.kozin1, .kozin2, .kozin3 {
+    text-align: left;
+}
+
+.toitop2 {
+    width: 70%;
+    margin:3rem auto;
+	border-style: solid;
+    border-width: 0.1rem;
+    background-color: white;
+    padding: 1rem;
+	}
+	
+	
+.kozin1 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+	
+.kozin2 {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+
+
