@@ -1326,9 +1326,10 @@ a img:hover {
 }
 
 h2.toi2 {
-    margin-top: 2.5rem;
+    margin-top: 5rem;
 	border-color: #3D3D3D;
-    border-style: solid;
+	border-style: none none solid;
+    border-width: 2px;
 }
 
 .osiuri {
