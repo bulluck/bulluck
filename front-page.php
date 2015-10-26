@@ -5,9 +5,9 @@
         <div class="companykvtext">
           <div class="compinnercell">
             <span class="section-title">想像を超えよう。</span>
-            <p>
+            <div class="topsub">
               Beyond your imagination.
-            </p>
+            </div>
 
           </div>
         </div>
