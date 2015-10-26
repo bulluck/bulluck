@@ -79,7 +79,7 @@
             </div>
 
                     <p>
-                        問い合わせフォームはこちら
+                        お問い合わせ
                     </p>
                     <?php echo do_shortcode('[contact-form-7 id="69" title="お問い合わせフォーム"]'); ?>
                     <p>
