@@ -1324,13 +1324,15 @@ a img:hover {
 .toitop {
     width: 90%;
     margin: auto;
+	text-align: left;
 }
 
 h2.toi2 {
-    margin-top: 5rem;
+    margin-top: 3rem;
 	border-color: #3D3D3D;
 	border-style: none none solid;
     border-width: 2px;
+	padding: 0.5rem;
 }
 
 .osiuri {
@@ -1340,6 +1342,7 @@ h2.toi2 {
 	padding: 1rem;
 	color: rgb(231, 60, 60);
     font-weight: 600;
+	background: rgba(241, 214, 59, 0.17);
 	
 }
 
