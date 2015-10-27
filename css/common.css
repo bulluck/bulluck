@@ -399,7 +399,10 @@ a img:hover {
   background-image: url("../images/question.svg");
   background-repeat: no-repeat;
   background-size: 30px;
-  padding-left: 3rem; }
+  padding-left: 3rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+  }
 
 /* line 318, ../sass/common.scss */
 /* line 421, ../sass/common.scss */
@@ -1337,7 +1340,7 @@ h2.toi2 {
 	color: rgb(231, 60, 60);
     font-weight: 600;
 	background: rgba(241, 214, 59, 0.17);
-	
+
 }
 
 
@@ -1354,17 +1357,14 @@ h2.toi2 {
     background-color: white;
     padding: 1rem;
 	}
-	
-	
+
+
 .kozin1 {
     margin-top: 2rem;
     font-size: 1.6rem;
 }
-	
+
 .kozin2 {
     margin-top: 2rem;
     font-size: 1.3rem;
 }
-
-
-
