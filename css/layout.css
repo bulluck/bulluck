@@ -806,7 +806,6 @@ form .plantable input {
 }
 .tablewrap {
   width: 100%;
-  overflow-x: auto
 }
 address {
   font-style: normal
