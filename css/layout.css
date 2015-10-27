@@ -187,7 +187,9 @@ img {
 /* line 192, ../sass/layout.scss */
 .globalNavi2 {
   width: 100%;
-  background: #3d3d3d; }
+  background: #3d3d3d;
+  position:fixed;
+  z-index:999; }
   /* line 195, ../sass/layout.scss */
   .globalNavi2 .menu {
     height: 3rem;
@@ -222,6 +224,7 @@ img {
   margin: 0 auto;
   height: 3rem;
   position: fixed;
+<<<<<<< HEAD
   background-color: #3d3d3d;
   z-index: 1;
   top: 0; }
@@ -229,20 +232,24 @@ img {
 /* line 233, ../sass/layout.scss */
 #companykv, #lineuptitle {
   margin-top: 3rem; }
+=======
+  background-color: #3d3d3d; }
+>>>>>>> miyagawa_branch
 
 /* line 139, ../sass/layout.scss */
 /* line 175, ../sass/layout.scss */
 /* line 206, ../sass/layout.scss */
 /* line 240, ../sass/layout.scss */
 .companyname {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 5%;
   height: 3rem;
   color: #fff;
   font-size: 1.2rem;
   line-height: 3rem;
-  font-weight: 500; }
+  font-weight: 500;
+  z-index:9999 }
 
 /* line 149, ../sass/layout.scss */
 /* line 187, ../sass/layout.scss */
