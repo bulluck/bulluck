@@ -179,7 +179,9 @@ img {
 /* line 192, ../sass/layout.scss */
 .globalNavi2 {
   width: 100%;
-  background: #3d3d3d; }
+  background: #3d3d3d;
+  position:fixed
+  z-index:999 }
   /* line 195, ../sass/layout.scss */
   .globalNavi2 .menu {
     height: 3rem;
@@ -221,14 +223,15 @@ img {
 /* line 206, ../sass/layout.scss */
 /* line 235, ../sass/layout.scss */
 .companyname {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 5%;
   height: 3rem;
   color: #fff;
   font-size: 1.2rem;
   line-height: 3rem;
-  font-weight: 500; }
+  font-weight: 500;
+  z-index:9999 }
 
 /* line 149, ../sass/layout.scss */
 /* line 187, ../sass/layout.scss */
