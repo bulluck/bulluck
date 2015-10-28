@@ -69,7 +69,7 @@
           </div>
           <div class="linetable" id="line">
             <a>
-              <img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
+              <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
             </a>
                   <p style="margin:0 auto;">簡単に「友だち追加」ができます</p>
 
