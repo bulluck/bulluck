@@ -34,7 +34,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<?php if(is_page('support')):?>
+	<?php if (is_page('support')):?>
+	<div id="conv-tag">
 	<!-- Google Code for お問い合わせぺージコンバージョン数 Conversion Page -->
 	<script type="text/javascript">
 	/* <![CDATA[ */
@@ -50,9 +51,10 @@
 	</script>
 	<noscript>
 	<div style="display:inline;">
-	<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/941213421/?label=lgaCCLLa62AQ7Y3nwAM&guid=ON&script=0"/>
+	<img height="1" width="1" id="conversion-img" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/941213421/?label=lgaCCLLa62AQ7Y3nwAM&guid=ON&script=0"/>
 	</div>
 	</noscript>
+	</div>
 <?php endif;?>
 	<p id="page-top">
 		<a href="#wrap">PAGE TOP</a>
