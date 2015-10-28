@@ -1418,6 +1418,19 @@
                 </div>
             </div>
         </div>
+      <?php else: ?>
+        <div class="lineQR">
+            <div class="icon">
+                <img alt="LINEアイコン" src="<?php bloginfo('template_url');?>/images/LINE_icon.png" width="100">
+            </div>
+            <div class="linetable" id="line">
+              <a>
+                <img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
+              </a>
+                    <p style="margin:0 auto;">簡単に「友だち追加」ができます</p>
+
+            </div>
+        </div>
     <?php endif; ?>
         <div class="mailform" id="mail">
             <div class="icon">

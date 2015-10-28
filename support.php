@@ -1,22 +1,12 @@
 <?php get_header(); ?>
 <section id="otoiawase">
-
-
-
-
 <div class="contentsbody">
 <div class = "toitop">
 <h1 class="toi">
   <?php the_title(); ?>
 </h1>
-
-
-
 <p>お問い合わせ・ご質問・無料相談のお申し込みは下記のフォームまたはラインにてご連絡ください。24時間以内にご返信いたします。
 </p>
-
-
-
 <h2 class="toi2">無料相談について
 </h2>
 <p>
@@ -72,6 +62,19 @@
                 </div>
             </div>
         </div>
+    <?php else:  ?>
+      <div class="lineQR">
+          <div class="icon">
+              <img alt="LINEアイコン" src="<?php bloginfo('template_url');?>/images/LINE_icon.png" width="100">
+          </div>
+          <div class="linetable" id="line">
+            <a>
+              <img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
+            </a>
+                  <p style="margin:0 auto;">簡単に「友だち追加」ができます</p>
+
+          </div>
+      </div>
     <?php endif; ?>
         <div class="mailform" id="mail">
             <div class="icon">
@@ -90,11 +93,11 @@
                     </a>
 
         </div>
-        
-        
-        
-        
-        
+
+
+
+
+
    <div class="toitop2">
 
 <div class="kozin1">個人情報の利用について
@@ -148,9 +151,9 @@
 <div class="kozin3">お客様の個人情報に関する確認・訂正、追加、停止又は削除・個人情報の取扱いに関するお問い合わせ<br>
 株式会社Bulluck ： info@bulluck.co.jp
 </div>
-</div>  
-        
-        
+</div>
+
+
   </div>
     </div>
 </section>
