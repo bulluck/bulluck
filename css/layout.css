@@ -1671,6 +1671,7 @@ img.ajax-loader {
   width: 100%;
   max-width: 760px;
   margin: 0 auto;
+  table-layout: fixed;
 }
 .corptable tbody,
 .corptable tr {
