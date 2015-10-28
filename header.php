@@ -34,73 +34,28 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<!-- Google Code for ライン Conversion Page
-	In your html page, add the snippet and call
-	goog_report_conversion when someone clicks on the
-	chosen link or button. -->
+	<?php if (is_page('support')):?>
+	<div id="conv-tag">
+	<!-- Google Code for お問い合わせぺージコンバージョン数 Conversion Page -->
 	<script type="text/javascript">
 	/* <![CDATA[ */
-	goog_snippet_vars = function() {
-	var w = window;
-	w.google_conversion_id = 941213421;
-	w.google_conversion_label = "hkylCNmS2WAQ7Y3nwAM";
-	w.google_remarketing_only = false;
-	}
-	// DO NOT CHANGE THE CODE BELOW.
-	goog_report_conversion = function(url) {
-	goog_snippet_vars();
-	window.google_conversion_format = "3";
-	window.google_is_call = true;
-	var opt = new Object();
-	opt.onload_callback = function() {
-	if (typeof(url) != 'undefined') {
-	window.location = url;
-	}
-	}
-	var conv_handler = window['google_trackConversion'];
-	if (typeof(conv_handler) == 'function') {
-	conv_handler(opt);
-	}
-	}
+	var google_conversion_id = 941213421;
+	var google_conversion_language = "en";
+	var google_conversion_format = "3";
+	var google_conversion_color = "ffffff";
+	var google_conversion_label = "lgaCCLLa62AQ7Y3nwAM";
+	var google_remarketing_only = false;
 	/* ]]> */
 	</script>
-	<script type="text/javascript"
-	src="https://www.googleadservices.com/pagead/conversion_async.js">
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 	</script>
-
-	<!-- Google Code for メール Conversion Page
-	In your html page, add the snippet and call
-	goog_report_conversion when someone clicks on the
-	chosen link or button. -->
-	<script type="text/javascript">
-	/* <![CDATA[ */
-	goog_snippet_vars = function() {
-	var w = window;
-	w.google_conversion_id = 941213421;
-	w.google_conversion_label = "yx52CJKZ2WAQ7Y3nwAM";
-	w.google_remarketing_only = false;
-	}
-	// DO NOT CHANGE THE CODE BELOW.
-	goog_report_conversion = function(url) {
-	goog_snippet_vars();
-	window.google_conversion_format = "3";
-	window.google_is_call = true;
-	var opt = new Object();
-	opt.onload_callback = function() {
-	if (typeof(url) != 'undefined') {
-	window.location = url;
-	}
-	}
-	var conv_handler = window['google_trackConversion'];
-	if (typeof(conv_handler) == 'function') {
-	conv_handler(opt);
-	}
-	}
-	/* ]]> */
-	</script>
-	<script type="text/javascript"
-	src="//www.googleadservices.com/pagead/conversion_async.js">
-	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" id="conversion-img" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/941213421/?label=lgaCCLLa62AQ7Y3nwAM&guid=ON&script=0"/>
+	</div>
+	</noscript>
+	</div>
+<?php endif;?>
 	<p id="page-top">
 		<a href="#wrap">PAGE TOP</a>
 	</p>
