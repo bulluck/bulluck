@@ -51,8 +51,8 @@
 							</a>
 						<span>produced by Bulluck</span>
 						</hgroup>
-						<a class="linebannar">
-							<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
+						<a href="<?php echo site_url('/support/');?>" class="linebannar">
+							<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png">
 						</a>
 						<div class="globalNavi">
 
@@ -86,12 +86,12 @@
                     </div>
 				<?php endif; ?>
 				<?php if(!wp_is_mobile()):?>
-					<a href="#line">
-							<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('#line')">
+					<a href="<?php echo site_url('/support/');?>">
+							<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" >
 					</a>
 				<?php else:?>
-					<a>
-						<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
+					<a href="<?php echo site_url('/support/');?>">
+						<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png">
 					</a>
 				<?php endif;?>
 

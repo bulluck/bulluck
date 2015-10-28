@@ -155,10 +155,10 @@
                <div class="exit">経営コンサルタントが
 				<br>作るWebサイトは
 				<br><span class="zyutyuu">受注率</span>が違います。</div>
-               <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+               <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-               <a>
-                   <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+               <a href="<?php echo site_url('/support/');?>">
+                   <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                </a>
                <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                    <table class="contactbannartbl">
@@ -167,11 +167,11 @@
                                経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                            </td>
                            <td>
-                               <a href="#line">
-                                   <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                               <a href="<?php echo site_url('/support/');?>">
+                                   <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                                </a>
-                               <a href="#mail">
-                                   <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                               <a href="<?php echo site_url('/support/');?>">
+                                   <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                                </a>
                            </td>
                        </tr>
@@ -277,10 +277,10 @@
            <div class="exit">経営コンサルタントが
     <br>作るWebサイトは
     <br><span class="zyutyuu">受注率</span>が違います。</div>
-           <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+           <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-           <a>
-               <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+           <a href="<?php echo site_url('/support/');?>">
+               <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
            </a>
            <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                <table class="contactbannartbl">
@@ -289,11 +289,11 @@
                            経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                        </td>
                        <td>
-                           <a href="#line">
-                               <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                           <a href="<?php echo site_url('/support/');?>">
+                               <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                            </a>
-                           <a href="#mail">
-                               <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                           <a href="<?php echo site_url('/support/');?>">
+                               <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                            </a>
                        </td>
                    </tr>
@@ -410,10 +410,10 @@
              <div class="exit">経営コンサルタントが
       <br>作るWebサイトは
       <br><span class="zyutyuu">受注率</span>が違います。</div>
-             <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+             <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-             <a>
-                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+             <a href="<?php echo site_url('/support/');?>">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
              </a>
              <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                  <table class="contactbannartbl">
@@ -422,11 +422,11 @@
                              経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                          </td>
                          <td>
-                             <a href="#line">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                              </a>
-                             <a href="#mail">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                              </a>
                          </td>
                      </tr>
@@ -533,10 +533,10 @@
              <div class="exit">経営コンサルタントが
       <br>作るWebサイトは
       <br><span class="zyutyuu">受注率</span>が違います。</div>
-             <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+             <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-             <a>
-                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+             <a href="<?php echo site_url('/support/');?>">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
              </a>
              <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                  <table class="contactbannartbl">
@@ -545,11 +545,11 @@
                              経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                          </td>
                          <td>
-                             <a href="#line">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                              </a>
-                             <a href="#mail">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                              </a>
                          </td>
                      </tr>
@@ -591,10 +591,10 @@
              <div class="exit">経営コンサルタントが
       <br>作るWebサイトは
       <br><span class="zyutyuu">受注率</span>が違います。</div>
-             <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+             <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-             <a>
-                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+             <a href="<?php echo site_url('/support/');?>">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
              </a>
              <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                  <table class="contactbannartbl">
@@ -603,11 +603,11 @@
                              経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                          </td>
                          <td>
-                             <a href="#line">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                              </a>
-                             <a href="#mail">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                              </a>
                          </td>
                      </tr>
@@ -1124,10 +1124,10 @@
              <div class="exit">経営コンサルタントが
       <br>作るWebサイトは
       <br><span class="zyutyuu">受注率</span>が違います。</div>
-             <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+             <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-             <a>
-                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+             <a href="<?php echo site_url('/support/');?>">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
              </a>
              <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                  <table class="contactbannartbl">
@@ -1136,11 +1136,11 @@
                              経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                          </td>
                          <td>
-                             <a href="#line">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                              </a>
-                             <a href="#mail">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                              </a>
                          </td>
                      </tr>
@@ -1228,10 +1228,10 @@
              <div class="exit">経営コンサルタントが
       <br>作るWebサイトは
       <br><span class="zyutyuu">受注率</span>が違います。</div>
-             <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+             <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-             <a>
-                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+             <a href="<?php echo site_url('/support/');?>">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
              </a>
              <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                  <table class="contactbannartbl">
@@ -1240,11 +1240,11 @@
                              経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                          </td>
                          <td>
-                             <a href="#line">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                              </a>
-                             <a href="#mail">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                              </a>
                          </td>
                      </tr>
@@ -1352,10 +1352,10 @@
              <div class="exit">経営コンサルタントが
       <br>作るWebサイトは
       <br><span class="zyutyuu">受注率</span>が違います。</div>
-             <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+             <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-             <a>
-                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+             <a href="<?php echo site_url('/support/');?>">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
              </a>
              <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
                  <table class="contactbannartbl">
@@ -1364,11 +1364,11 @@
                              経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                          </td>
                          <td>
-                             <a href="#line">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                              </a>
-                             <a href="#mail">
-                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                             <a href="<?php echo site_url('/support/');?>">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                              </a>
                          </td>
                      </tr>
@@ -1425,7 +1425,7 @@
             </div>
             <div class="linetable" id="line">
               <a>
-                <img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
+                <img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png">
               </a>
                     <p style="margin:0 auto;">簡単に「友だち追加」ができます</p>
 
@@ -1457,10 +1457,10 @@
          <div class="exit">経営コンサルタントが
   <br>作るWebサイトは
   <br><span class="zyutyuu">受注率</span>が違います。</div>
-         <a><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')"></a>
+         <a href="<?php echo site_url('/support/');?>"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
 
-         <a>
-             <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#contact')">
+         <a href="<?php echo site_url('/support/');?>">
+             <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
          </a>
          <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
              <table class="contactbannartbl">
@@ -1469,11 +1469,11 @@
                          経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
                      </td>
                      <td>
-                         <a href="#line">
-                             <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('#line')">
+                         <a href="<?php echo site_url('/support/');?>">
+                             <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
                          </a>
-                         <a href="#mail">
-                             <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png" onClick="goog_report_conversion('#mail')">
+                         <a href="<?php echo site_url('/support/');?>">
+                             <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
                          </a>
                      </td>
                  </tr>
