@@ -2,7 +2,15 @@
   box-sizing: border-box;
 }
 
-html, ul, li, h1, h2, h3, h4, h5, h6 {
+html,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -155,6 +163,9 @@ img {
   margin: 0 auto;
   height: 3rem;
   background-color: #3d3d3d;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /* line 139, ../sass/layout.scss */
@@ -173,7 +184,8 @@ img {
   z-index: 9999;
 }
 
-.kvbox, .kvbox-alt {
+.kvbox,
+.kvbox-alt {
   width: 100%;
   height: 800px;
   position: relative;
@@ -230,7 +242,8 @@ img {
   text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
   padding: 1rem 0;
 }
-.topbar2 .menu ul li a, .topbar2 .headtitle a {
+.topbar2 .menu ul li a,
+.topbar2 .headtitle a {
   color: #070c22;
 }
 
@@ -294,7 +307,8 @@ img {
   font-size: 5rem;
 }
 
-.contactbannars, .contactbannars2 {
+.contactbannars,
+.contactbannars2 {
   display: inline-block;
   margin: 0 auto;
   width: 100%;
@@ -305,7 +319,8 @@ img {
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px) {
-  .contactbannars, .contactbannars2 {
+  .contactbannars,
+  .contactbannars2 {
     height: auto;
   }
 }
@@ -374,7 +389,8 @@ img {
   padding: 2rem 0;
 }
 
-.wrapblack, .wrapmidnight {
+.wrapblack,
+.wrapmidnight {
   width: 100%;
   max-width: 2560px;
   margin: 0 auto;
@@ -461,7 +477,8 @@ img {
   margin-top: 5rem;
 }
 
-.contentsbody h4, .formcontentsbody h4 {
+.contentsbody h4,
+.formcontentsbody h4 {
   margin: 1rem auto;
   font-size: 2rem;
 }
@@ -632,11 +649,13 @@ img {
   margin: 0 auto;
   vertical-align: top;
 }
-.boxhalf2 img, .boxhalf2 a img {
+.boxhalf2 img,
+.boxhalf2 a img {
   vertical-align: middle;
 }
 
-.boxhalf p, .boxhalf2 p {
+.boxhalf p,
+.boxhalf2 p {
   margin: 0;
   padding: 1rem;
   padding-top: 0;
@@ -657,7 +676,8 @@ img {
   padding-bottom: 0;
   font-size: 1.7rem;
 }
-.box70 th, .box70 td {
+.box70 th,
+.box70 td {
   vertical-align: middle;
 }
 .box70 h2 {
@@ -714,7 +734,8 @@ img {
   text-align: right;
 }
 
-.alignleft p, .alignright p {
+.alignleft p,
+.alignright p {
   text-align: justify;
 }
 
@@ -737,7 +758,8 @@ img {
   text-align: justify;
 }
 
-.responsiveSlide, .mail {
+.responsiveSlide,
+.mail {
   display: none;
 }
 
@@ -798,7 +820,8 @@ td {
   margin: 1rem auto;
   width: 100%;
 }
-.plantable th, .plantable td {
+.plantable th,
+.plantable td {
   text-align: center;
   white-space: normal;
   padding: 0.5rem;
@@ -861,7 +884,8 @@ td {
   margin-top: 30px;
 }
 
-.small-case .plantable th, .small-case .plantable td {
+.small-case .plantable th,
+.small-case .plantable td {
   width: 50%;
 }
 
@@ -1088,7 +1112,8 @@ img.ajax-loader {
   margin: 0 auto;
   color: #fff;
 }
-.companykvtext h1, .companykvtext h3 {
+.companykvtext h1,
+.companykvtext h3 {
   text-align: center;
   vertical-align: middle;
 }
@@ -1173,7 +1198,10 @@ img.ajax-loader {
   padding-top: 61.6106%;
 }
 
-.bulluckimgsbox1 a span, .bulluckimgsbox2 a span, .bulluckimgsbox3 a span, .bulluckimgsbox4 a span {
+.bulluckimgsbox1 a span,
+.bulluckimgsbox2 a span,
+.bulluckimgsbox3 a span,
+.bulluckimgsbox4 a span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1199,7 +1227,10 @@ img.ajax-loader {
   background: rgba(255, 255, 255, 0.3);
 }
 
-#lineup1 .boxhalf img, #lineup2 .boxhalf img, #lineup3 .boxhalf img, #lineup4 .boxhalf img {
+#lineup1 .boxhalf img,
+#lineup2 .boxhalf img,
+#lineup3 .boxhalf img,
+#lineup4 .boxhalf img {
   width: 50%;
   text-align: center;
 }
@@ -1230,7 +1261,8 @@ img.ajax-loader {
   background-repeat: no-repeat;
 }
 
-.titlebox_corp .lineuptbl, .titleboxlineup .lineuptbl {
+.titlebox_corp .lineuptbl,
+.titleboxlineup .lineuptbl {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
@@ -1240,11 +1272,13 @@ img.ajax-loader {
   text-align: center;
 }
 
-.titlebox_corp .lineuptbl p, .titleboxlineup .lineuptbl p {
+.titlebox_corp .lineuptbl p,
+.titleboxlineup .lineuptbl p {
   color: #fff;
 }
 
-.titlebox_corp .lineuptbl h4, .titleboxlineup .lineuptbl h4 {
+.titlebox_corp .lineuptbl h4,
+.titleboxlineup .lineuptbl h4 {
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -1269,14 +1303,19 @@ img.ajax-loader {
   margin: 0 auto;
 }
 
-.engineering, .policy, .corparea, .ad_promotion {
+.engineering,
+.policy,
+.corparea,
+.ad_promotion {
   width: 100%;
   max-width: 2560px;
   margin: 0 auto;
   height: 300px;
 }
 
-.engineering, .policy, .corparea {
+.engineering,
+.policy,
+.corparea {
   background: url("../images/bgcompkv.png"), url("../images/engineer.jpg");
   background-size: 100% auto, 100% 100%;
   background-position: 50% 0;
@@ -1626,7 +1665,8 @@ img.ajax-loader {
   max-width: 760px;
   margin: 0 auto;
 }
-.corptable tbody, .corptable tr {
+.corptable tbody,
+.corptable tr {
   border-style: none;
 }
 .corptable th {
@@ -1662,16 +1702,21 @@ img.ajax-loader {
   color: #666;
 }
 
-.CEO, .COO, .CTO, .Internship {
+.CEO,
+.COO,
+.CTO,
+.Internship {
   width: 100%;
   margin: 0 0 5rem;
 }
 
-.CEO, .CTO {
+.CEO,
+.CTO {
   text-align: right;
 }
 
-.COO, .Internship {
+.COO,
+.Internship {
   text-align: left;
 }
 
@@ -1684,7 +1729,8 @@ img.ajax-loader {
 }
 
 @media screen and (max-width: 1024px) {
-  .kvbox, .kvbox-alt {
+  .kvbox,
+  .kvbox-alt {
     height: 450px;
     background-image: url("../images/toptab.png");
   }
@@ -1800,7 +1846,8 @@ img.ajax-loader {
   }
 }
 @media screen and (max-width: 414px) {
-  .kvbox, .kvbox-alt {
+  .kvbox,
+  .kvbox-alt {
     height: 400px;
     background-image: url("../images/topsmart.png");
   }
