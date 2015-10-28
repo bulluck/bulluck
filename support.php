@@ -68,10 +68,12 @@
               <img alt="LINEアイコン" src="<?php bloginfo('template_url');?>/images/LINE_icon.png" width="100">
           </div>
           <div class="linetable" id="line">
+             <p style="margin:0 auto;">ラインからのお問い合わせはこちら
+             <br>ワンクリックでご連絡いただけます。</p>
             <a>
               <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
             </a>
-                  <p style="margin:0 auto;">簡単に「友だち追加」ができます</p>
+            
 
           </div>
       </div>
@@ -82,7 +84,7 @@
             </div>
 
                     <p>
-                        問い合わせフォームはこちら
+                        フォームからのお問い合わせはこちら
                     </p>
                     <?php echo do_shortcode('[contact-form-7 id="69" title="お問い合わせフォーム"]'); ?>
                     <p>
@@ -123,7 +125,7 @@
 </div>
 
 
-<div class="kozin2">営業活動の目的での個人情報の利用
+<div class="kozin2">【営業活動の目的での個人情報の利用】
 </div>
 
 <div class="kozin3">
