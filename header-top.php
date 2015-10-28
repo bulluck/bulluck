@@ -51,7 +51,7 @@
 							</a>
 						<span>produced by Bulluck</span>
 						</hgroup>
-						<a href="<?php echo site_url('/support/');?>" class="linebannar">
+						<a href="<?php echo site_url('/support/');?>" class="linebannar" target="_blank">
 							<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png">
 						</a>
 						<div class="globalNavi">
@@ -86,11 +86,11 @@
                     </div>
 				<?php endif; ?>
 				<?php if(!wp_is_mobile()):?>
-					<a href="<?php echo site_url('/support/');?>">
+					<a href="<?php echo site_url('/support/');?>" target="_blank">
 							<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png" >
 					</a>
 				<?php else:?>
-					<a href="<?php echo site_url('/support/');?>">
+					<a href="<?php echo site_url('/support/');?>" target="_blank">
 						<img alt="" src="<?php bloginfo('template_url');?>/images/bullexitbtn.png">
 					</a>
 				<?php endif;?>
