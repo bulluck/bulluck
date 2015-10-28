@@ -70,10 +70,8 @@
           <div class="linetable" id="line">
              <p style="margin:0 auto;">ラインからのお問い合わせはこちら
              <br>ワンクリックでご連絡いただけます。</p>
-            <a>
-              <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')">
-            </a>
-            
+              <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" onClick="goog_report_conversion('https://line.me/ti/p/%40yrd9480x')" />
+
 
           </div>
       </div>
