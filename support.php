@@ -1,53 +1,5 @@
 <?php get_header(); ?>
-<div class="icon">
-                <img alt="メールアイコン" src="<?php bloginfo('template_url');?>/images/mail.png">
-            </div>
-<section id="contact">
-    <div class="wrapnormal" style="padding-bottom:0;">
-        <div class="formcontentsbody">
-        <h3 class="boxtitle">Contact</h3>
-        <h4>お問い合わせはコチラへ</h4>
-    </div>
-    <?php if (!wp_is_mobile()): ?>
-        <div class="lineQR">
-            <div class="icon">
-                <img alt="LINEアイコン" src="<?php bloginfo('template_url');?>/images/LINE_icon.png" width="100">
-            </div>
-            <div class="linetable" id="line">
-                <div class="linetblcell" style="vertical-align:top;">
-                    <p style="margin:0 auto;font-size:2rem;">
-                        a. LINE QRコード
-                    </p>
-                    <img alt="Line QRcode" src="<?php bloginfo('template_url');?>/images/line_qrcode.png">
-                    <p style="margin:0 auto;">LINEアプリの<br>「その他」>「友だち追加」>「QRコード」</p>
-                </div>
-                <div>
-                        <p style="font-size:2rem;margin-top:10%;">
-                            ：<br>
-                            ：<br>
-                            OR<br>
-                            ：<br>
-                            ：<br>
-                        </p>
-                </div>
-                <div class="linetblcell" style="vertical-align:top;">
-                    <p style="margin:0 auto;font-size:2rem;">
-                        b. LINE ID検索
-                    </p>
-                    <p style="margin:10% auto;font-size:2rem;font-weight:bold;color:#1B1464;">
-                            @yrd9480x
-                    </p>
-                    <p>
-                        LINEアプリの<br>「その他」>「友だち追加」>「ID検索」
-                    </p>
-                </div>
-            </div>
-        </div>
-    <?php endif; ?>
-        <div class="mailform" id="mail">
-            <div class="icon">
-                <img alt="メールアイコン" src="<?php bloginfo('template_url');?>/images/mail.png">
-            </div>
+<section id="otoiawase">
 
 
 
@@ -127,7 +79,7 @@
             </div>
 
                     <p>
-                        お問い合わせ
+                        問い合わせフォームはこちら
                     </p>
                     <?php echo do_shortcode('[contact-form-7 id="69" title="お問い合わせフォーム"]'); ?>
                     <p>
@@ -138,11 +90,11 @@
                     </a>
 
         </div>
-
-
-
-
-
+        
+        
+        
+        
+        
    <div class="toitop2">
 
 <div class="kozin1">個人情報の利用について
@@ -168,7 +120,7 @@
 </div>
 
 
-<div class="kozin2">【営業活動の目的での個人情報の利用】
+<div class="kozin2">営業活動の目的での個人情報の利用
 </div>
 
 <div class="kozin3">
@@ -196,9 +148,9 @@
 <div class="kozin3">お客様の個人情報に関する確認・訂正、追加、停止又は削除・個人情報の取扱いに関するお問い合わせ<br>
 株式会社Bulluck ： info@bulluck.co.jp
 </div>
-</div>
-
-
+</div>  
+        
+        
   </div>
     </div>
 </section>
