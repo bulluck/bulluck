@@ -70,7 +70,9 @@
           <div class="linetable" id="line">
              <p style="margin:0 auto;">ラインからのお問い合わせはこちら
              <br>ワンクリックでご連絡いただけます。</p>
+             <a href="https://line.me/ti/p/%40yrd9480x">
               <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png" />
+             </a>
 
 
           </div>
@@ -80,7 +82,6 @@
             <div class="icon">
                 <img alt="メールアイコン" src="<?php bloginfo('template_url');?>/images/mail.png">
             </div>
-
                     <p>
                         フォームからのお問い合わせはこちら
                     </p>
