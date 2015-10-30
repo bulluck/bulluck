@@ -199,8 +199,10 @@
                 <div class = "position">- 株式会社Bulluck 取締役 COO
                 <br> (Chief Operating Officer)
                 </div>
-                <div class ="intro">某H大学卒業。
-                <br>大手日経コンサルティングファームを経て独立。
+                <div class ="intro">法政大学卒業。
+                <br>大手日経コンサルティングファームにて、オートビジネス、不動産関連の経営コンサルティングを行う。
+                <br>特にSNSマーケティングに特化しており、広告費を使わない「SNS０円マーケティング」を提唱。
+                <br>のちに独立。
                 </div>
             </div>
             <div class="CTO">
