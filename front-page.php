@@ -93,8 +93,8 @@
 
             </div>
             <div class="bulluckimgsbox4 bulluckimgsbox">
-                <a href="<?php echo site_url();?>/webdev/#contact">
-                    <span>サポート</span>
+                <a href="<?php echo site_url();?>/support/">
+                    <span>問い合わせ</span>
                 </a>
             </div>
         </div>
