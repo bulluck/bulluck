@@ -1684,7 +1684,7 @@ img.ajax-loader {
   padding: 1.5rem 3rem;
 }
 .corptable td {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(242, 242, 242);
   padding: 1.5rem;
   border-style: none;
   width: 70%;
