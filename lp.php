@@ -943,6 +943,7 @@
                         <td class="standardplan"><img alt="" src="<?php bloginfo('template_url');?>/images/crossmark.png"><br><small>(個別相談)</small></td>
                         <td><img alt="" src="<?php bloginfo('template_url');?>/images/circlemark.png"></td><td>―</td>
                     </tr>
+                    <!--
                     <tr>
                         <th rowspan="3" class="th_vertical" style="background:#1b0bbf;">
                             ご提示いただけるテキスト
@@ -987,6 +988,7 @@
                         <td style="font-weight:bold;font-size:1.2rem;">30,000円/5p</td>
                         <td style="font-weight:bold;font-size:1.2rem;">30,000円</td>
                     </tr>
+                    -->
                 </table>
                 <small style="text-align: right;display: block;">注:価格はすべて税抜き価格です。　※の箇所から２つ選択。</small>
 
