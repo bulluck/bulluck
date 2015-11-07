@@ -43,21 +43,12 @@ h2.toi1-1 {
     padding: 0.5rem;
 	font-size: 1.2rem;
 }
-
-@media screen and(max-width: 768px) {
-img.coup {
-    width: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.coupwrapper {
+  text-align: center;
 }
-}
-
 
 @media screen and (min-width: 769px){
-img.coup {
+.coup {
     width: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -66,6 +57,10 @@ img.coup {
     margin-bottom: 2rem;
 }
 }
+
+
+
+
 
 
 
@@ -1842,6 +1837,15 @@ img.ajax-loader {
     font-size: 1.4rem;
   }
 
+  .coup {
+      width: 290px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
   .arrow-down::before {
     left: 45%;
     border: 30px solid transparent;
@@ -1900,6 +1904,13 @@ img.ajax-loader {
     margin-top: 4rem;
   }
 }
+
+@media screen and (max-width:600px) {
+  .coup {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .kvbox,
   .kvbox-alt {

@@ -12,13 +12,14 @@
 <h2 class="toi1-1">《期間限定》20000円分のオプション無料お試し券プレゼントキャンペーン実施中!
 </h2>
 
+<div class="coupwrapper">
+  <img class="coup" alt="coupon" src="http://bulluck.co.jp/wp-content/themes/bulluck/images/coupon.png">
+</div>
 
-<img class="coup" alt="coupon" src="http://bulluck.co.jp/wp-content/themes/bulluck/images/coupon.png">
- 
 <div class="toi1-2">キャンペーン期間に、下記フォームよりメールorラインをご登録頂いた方に、もれなく20000円分のオプション無料お試し券をプレゼント致します。
   <br>
   例) キャンペーン期間にメールorラインにご登録いただき、開発費30万円分のご契約を頂いた場合、一年間ご利用いただける2万円のオプション無料券をプレゼント致します。
-  
+
   <br>
     ぜひこの機会に投資のご検討をしてみてください。
     <br>
