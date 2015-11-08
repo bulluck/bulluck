@@ -4,7 +4,7 @@
 <section  id="achieves">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">ブラック<br>の実績</h3>
+            <h3 class="boxtitle">ブラックの実績</h3>
         </div>
         <div class="contentsbody">
             <span class="tab-headding">Case.1</span>
