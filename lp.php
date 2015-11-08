@@ -4,7 +4,7 @@
 <section  id="achieves">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">Bulluck ICT Solutions<br>の実績</h3>
+            <h3 class="boxtitle">ブラック<br>の実績</h3>
         </div>
         <div class="contentsbody">
             <span class="tab-headding">Case.1</span>
@@ -186,7 +186,7 @@
   <div class="trouble-alt">
       <div class="contentsbody">
           <h3 class="boxtitle">Webサイト制作でお困りではありませんか？</h3>
-          <h4>Bulluck ICT Solutionsで解決できます。</h4>
+          <h4>ブラックで解決できます。</h4>
           <ul class="trouble-list">
             <li class="trouble-list-element">
               マーケティングをしたことがないから集客に自信がない
@@ -215,7 +215,7 @@
     <div class="wrapbrown">
         <div class="contentsbody">
             <h3 class="boxtitle">Webサイト制作でお困りではありませんか？</h3>
-            <h4>Bulluck ICT Solutionsで解決できます。</h4>
+            <h4>ブラックで解決できます。</h4>
         </div>
         <div class="contentsbody">
 
@@ -619,7 +619,7 @@
 <section id="price">
     <div class="wrapbrown">
         <div class="contentsbody">
-            <h3 class="boxtitle">料金プラン</h3>
+            <h3 class="boxtitle">ブラックの料金プラン</h3>
         </div>
         <div class="contentsbody">
           <?php if (!wp_is_mobile()):?>
