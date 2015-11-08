@@ -305,7 +305,7 @@
 <section  id="features">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">Bulluck ICT Solutionsの<br><span style="font-size:3rem;font-weight:bold;">5</span>つの<span style="font-size:3rem;font-weight:bold;">特徴</span></h3>
+            <h3 class="boxtitle">ブラックの<span style="font-size:3rem;font-weight:bold;">5</span>つの<span style="font-size:3rem;font-weight:bold;">特徴</span></h3>
         </div>
     <?php if (wp_is_mobile()): ?>
         <div class="contentsbody">
