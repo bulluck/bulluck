@@ -562,7 +562,7 @@
 <section id="service">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">サービス内容</h3>
+            <h3 class="boxtitle">ブラックのサービス内容</h3>
         </div>
         <div class="contentsbody">
             <div class="box servicebox">
