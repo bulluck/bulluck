@@ -2,6 +2,42 @@
 
 
 <section  id="achieves">
+
+  <div class="contactbannars">
+         <?php if (function_exists('wp_is_mobile') && wp_is_mobile()) :?>
+             <div class="exit">経営コンサルタントが
+      <br>作るWebサイトは
+      <br><span class="zyutyuu">受注率</span>が違います。</div>
+             <a href="<?php echo site_url('/support/');?>"  target="_blank"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
+
+             <a href="<?php echo site_url('/support/');?>"  target="_blank">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
+             </a>
+             <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
+                 <table class="contactbannartbl">
+                     <tr style="border-top:none;">
+                         <td style="font-size:2.4rem;color:#1B1464;text-align:left;font-weight:bold;padding:3rem;">
+                             経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
+                         </td>
+                         <td>
+                             <a href="<?php echo site_url('/support/');?>"  target="_blank">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
+                             </a>
+                             <a href="<?php echo site_url('/support/');?>"  target="_blank">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
+                             </a>
+                         </td>
+                     </tr>
+                 </table>
+
+                 <?php endif; ?>
+     </div>
+
+
+
+
+
+
     <div class="wrapnormal">
         <div class="contentsbody">
             <h3 class="boxtitle">ブラックの実績</h3>
