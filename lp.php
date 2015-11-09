@@ -500,7 +500,7 @@
                 <img alt="" src="<?php bloginfo('template_url');?>/images/nakamoto_bulluck_logic.png">
             </div>
             <div class="box70">
-                <p class="voiceheading">2割の原因が8割に結果を生んでいる！？</p>
+                <p class="voiceheading">2割の原因が8割の結果を生んでいる！？</p>
                 <p>
                     しかし、肝心の成果、つまり売り上げは、総売上の8割がWebマーケティングの集客から成ります。
                     労力を割いているリアルマーケティングからの売上は2割にとどまります。
@@ -562,7 +562,7 @@
 <section id="service">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">ブラックのサービス内容</h3>
+            <h3 class="boxtitle">ブラックの<br>サービス内容</h3>
         </div>
         <div class="contentsbody">
             <div class="box servicebox">
