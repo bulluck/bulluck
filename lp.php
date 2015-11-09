@@ -1157,7 +1157,7 @@
             <h3 class="boxtitle">利用者の声</h3>
             <div class="box30">
                 <img alt="" src="<?php bloginfo('template_url');?>/images/lady1.png">
-                <h4>Ａ社様</h4>
+                <h4>SL社様</h4>
             </div>
             <div class="box70">
                 <p class="voiceheading">早速効果が出始めました</p>
@@ -1178,7 +1178,7 @@
             <?php if (function_exists('wp_is_mobile') && wp_is_mobile()) :?>
                 <div class="box30">
                     <img alt="" src="<?php bloginfo('template_url');?>/images/boy2.png">
-                    <h4>Ｂ社様</h4>
+                    <h4>GS社様</h4>
                 </div>
 
             <div class="box70">
@@ -1219,7 +1219,7 @@
             </div>
             <div class="box30">
                 <img alt="" src="<?php bloginfo('template_url');?>/images/boy2.png">
-                <h4>B社様</h4>
+                <h4>GS社様</h4>
             </div>
         <?php endif; ?>
         </div>
