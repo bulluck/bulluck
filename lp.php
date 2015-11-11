@@ -2,9 +2,45 @@
 
 
 <section  id="achieves">
+
+  <div class="contactbannars">
+         <?php if (function_exists('wp_is_mobile') && wp_is_mobile()) :?>
+             <div class="exit">経営コンサルタントが
+      <br>作るWebサイトは
+      <br><span class="zyutyuu">受注率</span>が違います。</div>
+             <a href="<?php echo site_url('/support/');?>"  target="_blank"><img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png"></a>
+
+             <a href="<?php echo site_url('/support/');?>"  target="_blank">
+                 <img class="contactbannarsimg" alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
+             </a>
+             <?php elseif (function_exists('wp_is_mobile') && !wp_is_mobile()) :?>
+                 <table class="contactbannartbl">
+                     <tr style="border-top:none;">
+                         <td style="font-size:2.4rem;color:#1B1464;text-align:left;font-weight:bold;padding:3rem;">
+                             経営コンサルタントが<br>つくるWEBサイトは<br>受注率が違います。
+                         </td>
+                         <td>
+                             <a href="<?php echo site_url('/support/');?>"  target="_blank">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_lines.png">
+                             </a>
+                             <a href="<?php echo site_url('/support/');?>"  target="_blank">
+                                 <img alt="" src="<?php bloginfo('template_url');?>/images/bullexit_mails.png">
+                             </a>
+                         </td>
+                     </tr>
+                 </table>
+
+                 <?php endif; ?>
+     </div>
+
+
+
+
+
+
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">Bulluck ICT Solutionsの実績</h3>
+            <h3 class="boxtitle">ブラックの実績</h3>
         </div>
         <div class="contentsbody">
             <span class="tab-headding">Case.1</span>
@@ -14,7 +50,7 @@
             </div>
             <div class="achieve-box-title">
               <h4>
-                WEBからの問い合わせ数が1ヶ月で脅威の12倍！
+                《投資額9万円》問い合わせ数が1ヶ月で脅威の12倍！
               </h4>
               <p>
                 就労移行支援事業のお客様
@@ -128,7 +164,7 @@
                       </h5>
                       <p>
                         現在の応募方法をヒアリングし、目標の新人採用人数までのギャップを埋めるための施策をご提案致しました。現在のHPに加え、新たに採用HPを作ることを提案し、採用媒体のみに頼らない自社オリジナルの採用媒体を構築。
-                        </p>
+                        </p><br>
                     </div>
                   </div>
                 <div class="point">
@@ -186,7 +222,7 @@
   <div class="trouble-alt">
       <div class="contentsbody">
           <h3 class="boxtitle">Webサイト制作でお困りではありませんか？</h3>
-          <h4>Bulluck ICT Solutionsで解決できます。</h4>
+          <h4>ブラックで解決できます。</h4>
           <ul class="trouble-list">
             <li class="trouble-list-element">
               マーケティングをしたことがないから集客に自信がない
@@ -215,7 +251,7 @@
     <div class="wrapbrown">
         <div class="contentsbody">
             <h3 class="boxtitle">Webサイト制作でお困りではありませんか？</h3>
-            <h4>Bulluck ICT Solutionsで解決できます。</h4>
+            <h4>ブラックで解決できます。</h4>
         </div>
         <div class="contentsbody">
 
@@ -305,7 +341,7 @@
 <section  id="features">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">Bulluck ICT Solutionsの<br><span style="font-size:3rem;font-weight:bold;">5</span>つの<span style="font-size:3rem;font-weight:bold;">特徴</span></h3>
+            <h3 class="boxtitle">ブラックの<span style="font-size:3rem;font-weight:bold;">5</span>つの<span style="font-size:3rem;font-weight:bold;">特徴</span></h3>
         </div>
     <?php if (wp_is_mobile()): ?>
         <div class="contentsbody">
@@ -449,7 +485,7 @@
                 <p class="voiceheading">通常の経営コンサルティングは地上戦と空中戦！？</p>
                 <p>
                     2時間で40万円のコンサルティングフィーを頂く経営コンサルタントが行う戦略は大きく分けて2つあり、
-                    一つは地上戦(リアルマーケティング：ちらしやDMなど)、もう一つは空中戦（Webマーケティング）です。
+                    一つは地上戦(リアルマーケティング：チラシやDMなど)、もう一つは空中戦（Webマーケティング）です。
                     配分する労力でいうと、8割をリアルマーケティングに割き、残りの2割をWebマーケティングに割きます。
                 </p>
             </div>
@@ -490,8 +526,8 @@
             <div class="box70">
                 <p class="voiceheading">通常の経営コンサルティングは地上戦と空中戦！？</p>
                 <p>
-                    2時間で30万円のコンサルティングフィーを頂く経営コンサルタントが行う戦略は大きく分けて2つあり、
-                    一つは地上戦(リアルマーケティング：ちらしやDMなど)、もう一つは空中戦（Webマーケティング）です。
+                    2時間で40万円のコンサルティングフィーを頂く経営コンサルタントが行う戦略は大きく分けて2つあり、
+                    一つは地上戦(リアルマーケティング：チラシやDMなど)、もう一つは空中戦（Webマーケティング）です。
                     配分する労力でいうと、8割をリアルマーケティングに割き、残りの2割をWebマーケティングに割きます。
                 </p>
             </div>
@@ -500,7 +536,7 @@
                 <img alt="" src="<?php bloginfo('template_url');?>/images/nakamoto_bulluck_logic.png">
             </div>
             <div class="box70">
-                <p class="voiceheading">2割の原因が8割に結果を生んでいる！？</p>
+                <p class="voiceheading">2割の原因が8割の結果を生んでいる！？</p>
                 <p>
                     しかし、肝心の成果、つまり売り上げは、総売上の8割がWebマーケティングの集客から成ります。
                     労力を割いているリアルマーケティングからの売上は2割にとどまります。
@@ -562,7 +598,7 @@
 <section id="service">
     <div class="wrapnormal">
         <div class="contentsbody">
-            <h3 class="boxtitle">サービス内容</h3>
+            <h3 class="boxtitle">ブラックの<br>サービス内容</h3>
         </div>
         <div class="contentsbody">
             <div class="box servicebox">
@@ -619,7 +655,7 @@
 <section id="price">
     <div class="wrapbrown">
         <div class="contentsbody">
-            <h3 class="boxtitle">料金プラン</h3>
+            <h3 class="boxtitle">ブラックの料金プラン</h3>
         </div>
         <div class="contentsbody">
           <?php if (!wp_is_mobile()):?>
@@ -943,6 +979,7 @@
                         <td class="standardplan"><img alt="" src="<?php bloginfo('template_url');?>/images/crossmark.png"><br><small>(個別相談)</small></td>
                         <td><img alt="" src="<?php bloginfo('template_url');?>/images/circlemark.png"></td><td>―</td>
                     </tr>
+                    <!--
                     <tr>
                         <th rowspan="3" class="th_vertical" style="background:#1b0bbf;">
                             ご提示いただけるテキスト
@@ -987,6 +1024,7 @@
                         <td style="font-weight:bold;font-size:1.2rem;">30,000円/5p</td>
                         <td style="font-weight:bold;font-size:1.2rem;">30,000円</td>
                     </tr>
+                    -->
                 </table>
                 <small style="text-align: right;display: block;">注:価格はすべて税抜き価格です。　※の箇所から２つ選択。</small>
 
@@ -1155,7 +1193,7 @@
             <h3 class="boxtitle">利用者の声</h3>
             <div class="box30">
                 <img alt="" src="<?php bloginfo('template_url');?>/images/lady1.png">
-                <h4>Ａ社様</h4>
+                <h4>SL社様</h4>
             </div>
             <div class="box70">
                 <p class="voiceheading">早速効果が出始めました</p>
@@ -1176,7 +1214,7 @@
             <?php if (function_exists('wp_is_mobile') && wp_is_mobile()) :?>
                 <div class="box30">
                     <img alt="" src="<?php bloginfo('template_url');?>/images/boy2.png">
-                    <h4>Ｂ社様</h4>
+                    <h4>GS社様</h4>
                 </div>
 
             <div class="box70">
@@ -1217,7 +1255,7 @@
             </div>
             <div class="box30">
                 <img alt="" src="<?php bloginfo('template_url');?>/images/boy2.png">
-                <h4>B社様</h4>
+                <h4>GS社様</h4>
             </div>
         <?php endif; ?>
         </div>
